@@ -1,0 +1,2965 @@
+<!DOCTYPE html>
+
+<html class="no-js css-menubar" lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+
+  <meta name="description" content="bootstrap admin template">
+
+  <meta name="author" content="">
+
+  <title>LSDC | Systems Support</title>
+
+  <script src="../../../global/vendor/jquery/jquery.js"></script>
+
+
+
+  <link rel="apple-touch-icon" href="../../assets/images/apple-touch-icon.png">
+
+  <link rel="shortcut icon" href="../../assets/images/favicon.png">
+
+   <!-- Stylesheets -->
+
+  <link rel="stylesheet" href="../../../global/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="../../../global/css/bootstrap-extend.min.css">
+
+  <link rel="stylesheet" href="../../assets/css/site.min.css">
+
+  <!-- Plugins -->
+
+  <link rel="stylesheet" href="../../../global/vendor/animsition/animsition.css">
+
+  <link rel="stylesheet" href="../../../global/vendor/asscrollable/asScrollable.css">
+
+  <link rel="stylesheet" href="../../../global/vendor/switchery/switchery.css">
+
+  <link rel="stylesheet" href="../../../global/vendor/intro-js/introjs.css">
+
+  <link rel="stylesheet" href="../../../global/vendor/slidepanel/slidePanel.css">
+
+  <link rel="stylesheet" href="../../../global/vendor/flag-icon-css/flag-icon.css">
+
+  <link rel="stylesheet" href="../../../global/vendor/magnific-popup/magnific-popup.css">
+
+  <link rel="stylesheet" href="../../assets/examples/css/pages/gallery.css">
+
+
+
+  <!--link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="css/prettyPhoto.css" rel="stylesheet"-->
+
+  <link href="css/animate.min.css" rel="stylesheet">
+
+  <link href="css/main.css" rel="stylesheet">
+
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link href="css/set.css" rel="stylesheet">
+
+  <link href="../css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
+
+
+  <!-- Fonts -->
+
+  <link rel="stylesheet" href="../../../global/fonts/font-awesome/font-awesome.min.css">
+
+  <link rel="stylesheet" href="../../../global/fonts/web-icons/web-icons.min.css">
+
+  <link rel="stylesheet" href="../../../global/fonts/brand-icons/brand-icons.min.css">
+
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
+
+  <!--[if lt IE 9]>
+
+    <script src="../../../global/vendor/html5shiv/html5shiv.min.js"></script>
+
+    <![endif]-->
+
+  <!--[if lt IE 10]>
+
+    <script src="../../../global/vendor/media-match/media.match.min.js"></script>
+
+    <script src="../../../global/vendor/respond/respond.min.js"></script>
+
+    <![endif]-->
+
+  <!-- Scripts -->
+
+  <script src="../../../global/vendor/modernizr/modernizr.js"></script>
+
+  <script src="../../../global/vendor/breakpoints/breakpoints.js"></script>
+
+  <script>
+
+  Breakpoints();
+
+  </script>
+
+
+
+  <style type="text/css">
+
+    .border_{/*border:1px dashed green;*/}
+
+    .borderb{border-bottom:1px dashed #c0c1c0;}
+
+    .borderl{border-left:1px dashed #c0c1c0;}
+
+    .borderr{border-right:1px dashed #c0c1c0;}
+
+    .bordert{border-top:1px dashed #c0c1c0;}
+
+    .padding_{padding:0;}
+
+    .padding__{padding:20px;}
+
+    .marginb{margin-bottom: 40px;}
+
+
+
+    /*top navbar style*/
+
+    .site-navbar{
+
+      height:250px;
+	  display: none;
+
+    }
+
+    .overflow_{overflow: none;width:100%;}
+
+    .cover-row_{
+
+      /*border:0.5px dashed #c4c4c4;*/
+
+      position: relative;
+
+      /*margin-bottom:15px;*/
+
+      width:100%;
+
+      min-height: 255px;
+
+      float:left;
+
+      margin-right:10px;
+
+    }
+
+    .imgs_wrapper{
+
+      /*border:0.5px dashed #c4c4c4;*/
+
+      right: 0;
+
+      top: 0;
+
+      height: 260px;
+
+      overflow: hidden;
+
+    }
+
+    .imgs{
+
+      width:100%;
+
+      height:auto;
+
+    }
+
+
+
+    .btn_ {
+
+      padding: 15px 100px;
+
+      background: url(images/background02.png) repeat;/*#0ac965*/;
+
+      color: #fff;
+
+      border-radius: 0px;
+
+      margin-top: 25px;
+
+      display: inline-block;
+
+      z-index:100;
+
+      /*opacity:0.90;*/
+
+    }
+
+    .btn_:hover {
+
+      background: #0ac965;
+
+      z-index:100;
+
+        opacity:0.5;
+
+    }
+
+    .btn__ {
+
+      padding: 15px 100px;
+
+      background: #1ca0d3;
+
+      color: #fff;
+
+      border-radius: 0px;
+
+      margin-top: 25px;
+
+      display: inline-block;
+
+      z-index:100;
+
+      /*opacity:10;*/
+
+    }
+
+    .btn__:hover {
+
+      background: #6b6b6b;
+
+      z-index:100;
+
+        opacity:0.5;
+
+    }
+
+
+
+    .col-height{display:block;}
+
+    @media (max-width: 768px) {
+
+      .col-height{display:none;}
+
+      .btn_, .btn__{width: 100%;}
+
+    }
+
+
+
+    .white{color:white;}
+
+    .gold{color: gold;}
+
+    .black{color:black;}
+
+    /*about*/
+
+    .about, .advert_, .header_{padding:5% 0;}
+
+    .object-height{height: 260px;}
+
+    .advert_{background: url(images/background02.png) repeat;}
+
+    .modal-header{
+
+      background: #24429b;
+
+    }
+
+    .close{
+
+      background: red;
+
+    }
+
+
+
+    ul.masonry{list-style: none;padding: 0;padding-top: 20px;}
+
+    .widget-header{height:100px;}
+
+    /*.cover{height:250px;}
+
+    .cover-image{width:20px;height:100px;}*/
+
+    .masonry-item{
+
+      position: relative;
+
+      float: left;
+
+      /*border:1px dashed red;*/
+
+      margin-bottom: 10px;
+
+    }
+
+    .masonry-item .widget-body{float:left;padding:15px;height:150px;}
+
+
+
+    .slide-text-style{
+
+      /*border: 1px dashed blue;*/
+
+      background-color: rgba(82, 237, 250, 0.66);
+
+      padding: 20px;
+
+      color: #FFF;
+
+    }
+
+
+
+
+
+    .site-menubar.site-menubar-light{
+
+      /*height:300px;*/
+	  display: none;
+
+    }
+
+    .logo_{
+
+      /*border:1px dashed red;*/
+
+      margin-top:0px;
+
+      width:150px;
+
+      height:auto;
+
+    }
+
+    .logo_text_{
+
+      display: block;
+
+      margin-top:0px;
+
+      font-size:12px;
+
+      text-align: left;
+
+      line-height: 12px;
+
+    }
+
+    .navbar-brand-text{
+
+      display: none;
+
+    }
+
+    @media (max-width: 768px) {
+
+      .logo_text_{
+
+        display: none;
+
+      }
+
+      .logo_{
+
+        display:none;
+
+      }
+
+    }
+
+    /*team*/
+
+    .team figure{width: 100%;}
+
+    .team img{width: 100%;}
+
+    .team b{font-size: 1.2em;display: block;}
+
+    .team a i.fa{color: #fff; font-size: 2em;}
+
+    .team a i.fa:hover{color: #21abca;}
+
+
+
+    /*contact*/
+
+    #contact{padding:5% 0;background-color: #FFFFFF;}
+
+    .contactform textarea, button, .contactform input{
+
+      width: 100%;
+
+      padding:1em;
+
+      border:1px solid #ccc;
+
+      margin-bottom: 1em;
+
+      border-radius: 0;
+
+      outline: none;
+
+    }
+
+    .contactform button{
+
+      padding: 15px 100px;
+
+      background: url(images/background02.png) repeat;/*#0ac965*/;
+
+      color: #fff;
+
+      border-radius: 0px;
+
+    }
+
+    /*contact*/
+
+
+
+    .site-navbar-small .site-navbar .navbar-toggle {
+
+        /*/*border:1px dashed red;*/*/
+
+        height: 60px;
+
+        width: 40px;
+
+        padding: 15px 15px;
+
+    }
+
+    .site-navbar-small .site-navbar .navbar-toolbar>li>a {
+
+        padding-top: 15px;
+
+        padding-bottom: 15px;
+
+    }
+
+    @media (max-width: 767px){
+
+      body.site-navbar-small.site-navbar-collapse-show .site-menubar {
+
+          top: 120px;
+
+          height: -webkit-calc(100% - 120px);
+
+          height: calc(100% - 120px);
+
+          width: 50%;
+
+      }
+
+
+
+      .site-menu-category {
+
+          display: none;
+
+          padding: 0 24px;
+
+          margin-top: 20px;
+
+          font-size: 15px;
+
+          line-height: 46px;
+
+          text-transform: uppercase;
+
+      }
+
+    }
+
+
+
+    @media (min-width: 768px){
+
+      .navbar-right .dropdown-menu {
+
+          right: 0;
+
+          left: auto;
+
+          /*border:1px dashed red;*/
+
+          margin-top: 0;
+
+      }
+
+      .dropdown-menu {
+
+        margin-top: -10px;
+
+        /*border:1px dashed red;*/
+
+      }
+
+    }
+
+
+
+    .site-menu-title {
+
+        display: inline-block;
+
+        /* max-width: 170px; */
+
+        /* overflow: hidden; */
+
+        /*text-overflow: ellipsis;*/
+
+        white-space: nowrap;
+
+        vertical-align: bottom;
+
+    }
+
+
+
+    .highlight-info {
+
+        background: url(images/books.jpg) center fixed;
+
+        background-size: cover;
+
+        color: #fff;
+
+        padding: 0;
+
+    }
+
+    .highlight-info .overlay2 {
+
+        background: rgba(86, 146, 159, 0.8);
+
+        padding: 6% 0;
+
+    }
+
+
+
+    .nav-tabs>li {
+
+        float: left;
+
+        margin-bottom: -1px;
+
+        border-radius: 5px 20px 0px 0px;
+
+    }
+
+    .tabs__ {
+
+        background: #20486f;
+
+        color: #FFF;
+
+        opacity: 0.8;
+
+    }
+
+
+
+    .site-navbar-small .site-navbar .navbar-brand {
+
+        height: 60px;
+
+        padding: 0px 0px;
+
+    }
+
+
+
+    .widget-header{border:1px dashed red; height:200px;}
+
+    h3 span.description{font-weight: normal;font-size: 14px;display: block;}
+
+  </style>
+
+</head>
+
+<header class="index-banner">
+    <!-- nav -->
+    <nav class="main-header">
+      <div id="brand" data-aos="zoom-in-up">
+<!--        <div id="logo">
+          <a href="index.html">
+            <i></i>
+          </a>
+        </div>-->
+        <div id="word-mark">
+          <h1>
+<!--            <a href="index.html">Leseding</a>-->
+          </h1>
+        </div>
+      </div>
+      <div id="menu">
+        <div id="menu-toggle">
+          <div id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <ul class="text-center text-capitalize nav-agile" data-aos="zoom-in-up">
+          <li>
+            <a href="../" class="active">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+<body class="site-navbar-small page-gallery-grid" id="home">
+
+  <!--[if lt IE 8]>
+
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+
+    <![endif]-->
+
+  <nav class="site-navbar navbar navbar-default navbar-fixed-top navbar-mega navbar-inverse"
+
+  role="navigation">
+
+    <div class="container border_">
+
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle hamburger hamburger-close navbar-toggle-left hided"
+
+        data-toggle="menubar">
+
+          <span class="sr-only">Toggle navigation</span>
+
+          <span class="hamburger-bar"></span>
+
+        </button>
+
+        <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-collapse"
+
+        data-toggle="collapse">
+
+          <i class="icon wb-more-horizontal" aria-hidden="true"></i>
+
+        </button>
+
+        <a class="navbar-brand navbar-brand-center" href="../index.html">
+
+          <!--p class="logo_text_">Leseding Skills Development Centre</p-->
+
+          <img class="logo_ " src="images/leseding05.png"
+
+          title="LSDC">
+
+          <!--img class="navbar-brand-logo navbar-brand-logo-special" src="images/Leseding_logo.png"
+
+          title="Remark"-->
+
+          <!--span class="navbar-brand-text hidden-xs"> Remark</span-->
+
+          
+
+        </a>
+
+        <button type="button" class="navbar-toggle collapsed" data-target="#site-navbar-search"
+
+        data-toggle="collapse">
+
+          <span class="sr-only">Toggle Search</span>
+
+          <i class="icon wb-search" aria-hidden="true"></i>
+
+        </button>
+
+      </div>
+
+      <div class="navbar-container container-fluid">
+
+        <!-- Navbar Collapse -->
+
+        <div class="collapse navbar-collapse navbar-collapse-toolbar" id="site-navbar-collapse">
+
+          <!-- Navbar Toolbar -->
+
+          <ul class="nav navbar-toolbar">
+
+            <li class="hidden-float" id="toggleMenubar">
+
+              <a data-toggle="menubar" href="#" role="button">
+
+                <i class="icon hamburger hamburger-arrow-left">
+
+                    <span class="sr-only">Toggle menubar</span>
+
+                    <span class="hamburger-bar"></span>
+
+                  </i>
+
+              </a>
+
+            </li>
+
+            <li class="hidden-xs" id="toggleFullscreen">
+
+              <a class="icon icon-fullscreen" data-toggle="fullscreen" href="#" role="button">
+
+                <span class="sr-only">Toggle fullscreen</span>
+
+              </a>
+
+            </li>
+
+            <li class="hidden-float">
+
+              <a class="icon wb-search" data-toggle="collapse" href="#" data-target="#site-navbar-search"
+
+              role="button">
+
+                <span class="sr-only">Toggle Search</span>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+          <!-- End Navbar Toolbar -->
+
+          <!-- Navbar Toolbar Right -->
+
+          <!--ul class="nav navbar-toolbar navbar-right navbar-toolbar-right border_">
+
+            <li class="dropdown">
+
+              <a class="navbar-avatar dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"
+
+              data-animation="scale-up" role="button">
+
+                <i class="icon wb-user" aria-hidden="true"></i> Staff login
+
+              </a>
+
+              <ul class="dropdown-menu" role="menu">
+
+                <li role="presentation">
+
+                  <a href="javascript:void(0)" role="menuitem"><i class="icon wb-settings" aria-hidden="true"></i> Login</a>
+
+                </li>
+
+                <li class="divider" role="presentation"></li>
+
+                <li role="presentation">
+
+                  <a href="javascript:void(0)" role="menuitem"><i class="icon wb-power" aria-hidden="true"></i> Logout</a>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li class="dropdown">
+
+              <a data-toggle="dropdown" href="javascript:void(0)" title="Notifications" aria-expanded="false"
+
+              data-animation="scale-up" role="button">
+
+                <i class="icon wb-users" aria-hidden="true"></i> Student login
+
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-right dropdown-menu-media" role="menu">
+
+                 <li role="presentation">
+
+                  <a href="javascript:void(0)" role="menuitem"><i class="icon wb-settings" aria-hidden="true"></i> Login</a>
+
+                </li>
+
+                <li class="divider" role="presentation"></li>
+
+                <li role="presentation">
+
+                  <a href="javascript:void(0)" role="menuitem"><i class="icon wb-power" aria-hidden="true"></i> Logout</a>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+          </ul-->
+
+          <!-- End Navbar Toolbar Right -->
+
+        </div>
+
+        <!-- End Navbar Collapse -->
+
+        <!-- Site Navbar Seach -->
+
+        <div class="collapse navbar-search-overlap" id="site-navbar-search">
+
+          <form role="search">
+
+            <div class="form-group">
+
+              <div class="input-search">
+
+                <i class="input-search-icon wb-search" aria-hidden="true"></i>
+
+                <input type="text" class="form-control" name="site-search" placeholder="Search...">
+
+                <button type="button" class="input-search-close icon wb-close" data-target="#site-navbar-search"
+
+                data-toggle="collapse" aria-label="Close"></button>
+
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+        <!-- End Site Navbar Seach -->
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+
+
+  <div class="site-menubar site-menubar-light">
+
+    <div class="container border_">
+
+    <div class="site-menubar-body pull-right border_">
+
+      <div>
+
+        <div>
+
+          <ul class="site-menu">
+
+            <li class="site-menu-category">General</li>
+
+            <li class="dropdown site-menu-item has-sub">
+
+              <a class="dropdown-toggle" href="index.html#home" data-dropdown-toggle="false">
+
+                <i class="site-menu-icon wb-home" aria-hidden="true"></i>
+
+                <span class="site-menu-title">Home</span>
+
+              </a>
+
+            </li>
+
+            <li class="dropdown site-menu-item has-sub">
+
+              <a class="dropdown-toggle" href="javascript:void(0)" data-dropdown-toggle="false">
+
+                <i class="site-menu-icon wb-bookmark" aria-hidden="true"></i>
+
+                <span class="site-menu-title">About LSDC</span>
+
+                <span class="site-menu-arrow"></span>
+
+              </a>
+
+              <div class="dropdown-menu">
+
+                <div class="site-menu-scroll-wrap is-list">
+
+                  <div>
+
+                    <div>
+
+                      <ul class="site-menu-sub site-menu-normal-list">
+
+                        <li class="site-menu-item has-sub">
+
+                          <a href="about-us.html">
+
+                            <span class="site-menu-title">About Us</span>
+
+                          </a>
+
+                        </li>
+
+                        <li class="site-menu-item">
+
+                          <a class="animsition-link" href="about-us.html#management">
+
+                            <span class="site-menu-title">Our Team</span>
+
+                          </a>
+
+                        </li>
+
+                        <li class="site-menu-item">
+
+                          <a class="animsition-link" href="gallery.html">
+
+                            <span class="site-menu-title">Gallery</span>
+
+                          </a>
+
+                        </li>
+
+                      </ul>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="site-menu-category">Elements</li>
+
+            <li class="dropdown site-menu-item has-section has-sub">
+
+              <a class="dropdown-toggle" href="accreditation.html" data-dropdown-toggle="false">
+
+                <i class="site-menu-icon wb-bookmark" aria-hidden="true"></i>
+
+                <span class="site-menu-title">Accreditation</span>
+
+              </a>
+
+            </li>
+
+            <li class="dropdown site-menu-item has-section has-sub">
+
+              <a class="dropdown-toggle" href="index.html#services" data-dropdown-toggle="false">
+
+                <i class="site-menu-icon wb-bookmark" aria-hidden="true"></i>
+
+                <span class="site-menu-title">Our Services</span>
+
+              </a>
+
+            </li>
+
+            <li class="dropdown site-menu-item has-section has-sub">
+
+              <a class="dropdown-toggle" href="javascript:void(0)" data-dropdown-toggle="false">
+
+                <i class="site-menu-icon wb-bookmark" aria-hidden="true"></i>
+
+                <span class="site-menu-title">Courses</span>
+
+                <span class="site-menu-arrow"></span>
+
+              </a>
+
+              <ul class="dropdown-menu site-menu-sub site-menu-section-wrap blocks-sm-3">
+
+                <li class="site-menu-section site-menu-item has-sub">
+
+                  <header>
+
+                    <span class="site-menu-title">Qualifications</span>
+
+                    <span class="site-menu-arrow"></span>
+
+                  </header>
+
+                  <div class="site-menu-scroll-wrap is-section">
+
+                    <div>
+
+                      <div>
+
+                        <ul class="site-menu-sub site-menu-section-list">
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="wholesale.html">
+
+                              <span class="site-menu-title">Wholesale and Retail Operations</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="end-user.html">
+
+                              <span class="site-menu-title">National Certificate: IT: End User Computing</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="technical-support.html">
+
+                              <span class="site-menu-title">FET Certificate: IT: Technical Support</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="systems-development.html">
+
+                              <span class="site-menu-title">FET Certificate: IT: Systems Development L4</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="systems-development2.html">
+
+                              <span class="site-menu-title">FET Certificate: IT: Systems Development L5</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="systems-support.html">
+
+                              <span class="site-menu-title">FET Certificate: IT: Systems Support</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="ecd.html">
+
+                              <span class="site-menu-title">FET Certificate: Early Childhood Development</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="leadership.html">
+
+                              <span class="site-menu-title">FET Certificate: Leadership Development</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="advertising.html">
+
+                              <span class="site-menu-title">FET Certificate: Advertising Curriculum</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="sound.html">
+
+                              <span class="site-menu-title">National Certificate: Music Industry: Sound Technology</span>
+
+                            </a>
+
+                          </li>
+
+                        </ul>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </li>
+
+                <li class="site-menu-section site-menu-item has-sub">
+
+                  <header>
+
+                    <span class="site-menu-title">Programmes</span>
+
+                    <span class="site-menu-arrow"></span>
+
+                  </header>
+
+                  <div class="site-menu-scroll-wrap is-section">
+
+                    <div>
+
+                      <div>
+
+                        <ul class="site-menu-sub site-menu-section-list">
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="consumer.html">
+
+                              <span class="site-menu-title">Consumer Co-operative Start up</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="office-admin.html">
+
+                              <span class="site-menu-title">Office Administration</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item ">
+
+                            <a class="animsition-link" href="receptionist.html">
+
+                              <span class="site-menu-title">Receptionist</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="computer-literacy.html">
+
+                              <span class="site-menu-title">Computer Literacy</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="web.html">
+
+                              <span class="site-menu-title">Web Design</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="networking.html">
+
+                              <span class="site-menu-title">PC Repairs & Networking</span>
+
+                            </a>
+
+                          </li>
+
+                        </ul>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </li>
+
+                <li class="site-menu-section site-menu-item has-sub">
+
+                  <header>
+
+                    <span class="site-menu-title">Short Courses</span>
+
+                    <span class="site-menu-arrow"></span>
+
+                  </header>
+
+                  <div class="site-menu-scroll-wrap is-section">
+
+                    <div>
+
+                      <div>
+
+                        <ul class="site-menu-sub site-menu-section-list">
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="crane.html">
+
+                              <span class="site-menu-title">Truck mounted loader crane</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="health.html">
+
+                              <span class="site-menu-title">Health & Safety</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="data-capturing.html">
+
+                              <span class="site-menu-title">Data Capturing</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="fire-fighting.html">
+
+                              <span class="site-menu-title">Fire Fighter </span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="foklift.html">
+
+                              <span class="site-menu-title">Operate a counter-balanced lift truck</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="call-centre.html">
+
+                              <span class="site-menu-title">Call Centre</span>
+
+                            </a>
+
+                          </li>
+
+                          <li class="site-menu-item">
+
+                            <a class="animsition-link" href="cashier.html">
+
+                              <span class="site-menu-title">Cashier</span>
+
+                            </a>
+
+                          </li>
+
+                        </ul>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+            <!--li class="dropdown site-menu-item has-sub">
+
+              <a class="dropdown-toggle" href="javascript:void(0)" data-dropdown-toggle="false">
+
+                <i class="site-menu-icon wb-extension" aria-hidden="true"></i>
+
+                <span class="site-menu-title">Widgets</span>
+
+                <span class="site-menu-arrow"></span>
+
+              </a>
+
+              <div class="dropdown-menu">
+
+                <div class="site-menu-scroll-wrap is-list">
+
+                  <div>
+
+                    <div>
+
+                      <ul class="site-menu-sub site-menu-normal-list">
+
+                        <li class="site-menu-item">
+
+                          <a class="animsition-link" href="../widgets/statistics.html">
+
+                            <span class="site-menu-title">Statistics Widgets</span>
+
+                          </a>
+
+                        </li>
+
+                        <li class="site-menu-item">
+
+                          <a class="animsition-link" href="../widgets/data.html">
+
+                            <span class="site-menu-title">Data Widgets</span>
+
+                          </a>
+
+                        </li>
+
+                        <li class="site-menu-item">
+
+                          <a class="animsition-link" href="../widgets/blog.html">
+
+                            <span class="site-menu-title">Blog Widgets</span>
+
+                          </a>
+
+                        </li>
+
+                        <li class="site-menu-item">
+
+                          <a class="animsition-link" href="../widgets/chart.html">
+
+                            <span class="site-menu-title">Chart Widgets</span>
+
+                          </a>
+
+                        </li>
+
+                        <li class="site-menu-item">
+
+                          <a class="animsition-link" href="../widgets/social.html">
+
+                            <span class="site-menu-title">Social Widgets</span>
+
+                          </a>
+
+                        </li>
+
+                        <li class="site-menu-item">
+
+                          <a class="animsition-link" href="../widgets/weather.html">
+
+                            <span class="site-menu-title">Weather Widgets</span>
+
+                          </a>
+
+                        </li>
+
+                      </ul>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li-->
+
+            <li class="site-menu-category">Apps</li>
+
+            <li class="dropdown site-menu-item has-sub">
+
+              <a class="dropdown-toggle" href="#contact" data-dropdown-toggle="false">
+
+                <i class="site-menu-icon fa fa-bookmark" aria-hidden="true"></i>
+
+                <span class="site-menu-title">Contact Us</span>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div id="services" class="highlight-info service-item">
+
+    <div class="overlay2">
+
+      <div class="row">
+
+        <div class="container text-center border_" >
+
+          <div class="center wow fadeInDown">
+
+              <h2 class="borderb" style="border-bottom: 1px dashed rgba(215, 213, 213, 0.44);"><span class="b1">Further Education and Training Certificate: Systems Support NQF Level 5</span></h2>
+
+              <p class="white_ col-md-10 col-md-offset-1 text-center wowload option animated wobble border_">We specialise in the quality delivery of  lifelong learning and training interventions that suite clients’ needs</p>
+
+          </div>
+
+        </div><!--/.container-->
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!--about-->
+
+  <div class="page animsition borderb" style="min-height:500px;">
+
+    <div class="container">
+
+        <div class="page-content">
+
+            <!--p class="text-muted text-center">About Us</p-->
+
+            <style type="text/css">
+
+                .tabs__ {
+
+                background: #24429b;
+
+                color:#FFF;
+
+                opacity:0.8;
+
+                }
+
+                .tabs__:hover{
+
+                background: #6b6b6b;
+
+                text-decoration: none;
+
+                color:#FFF;
+
+                opacity:0.5;
+
+                }
+
+                .tabs__:active{
+
+                background: #FFF;
+
+                text-decoration: none;
+
+                color:#6b6b6b;
+
+                /*opacity:100%;*/
+
+                }
+
+            </style>
+
+            <div class="row marginb border_">
+
+                <div class="col-sm-6 border_">
+
+                    <h4 class="border_">Qualification Name</h4>
+
+                     <h5 class="border_">Further Education and Training Certificate: Systems Support NQF Level 5</h5>
+
+                     <p class="border_"><strong>Total credits to be obtained after achievement:</strong> 147</p>
+
+                     <p class="border_">Purpose of the Skills programme</p>
+
+                     <hr />
+
+                     <p class="border_">To develop learners with the requisite competencies against the skills profile for the systems support career path (The overarching aim being to develop a broader base of skilled ICT professionals to underpin economic growth). An understanding of different types of computer systems and the use of computer technology in business is demonstrated, being able to:</p>
+
+
+
+                     <ol class="border_">
+
+                        <li>describe the different computer systems and associated hardware and network configurations</li> 
+
+                        <li>Describe the staffing and the operations, development and control activities in a modern computing environment</li>
+
+                        <li>Demonstrate an understanding of the social and economic implications of the use of computers </li> 
+
+                     </ol>
+
+                     <br/>
+
+                </div>
+
+                <div class="col-sm-6 border_">                
+
+                    <h5 class="border_">Target Group</h5>  
+
+                    <ol class="border_">
+
+                        <li>Learners wanting to specialise in Identifying and recommending appropriate IT solutions to business problems.</li> 
+
+                    </ol>
+
+
+
+                    <h5 class="border_">Qualification Objectives</h5>  
+
+                     <ol class="border_">
+
+                        <li>Describe fundamental networking concepts</li> 
+
+                        <li>Use basic administrative tools for at least one network operating system.</li>
+
+                        <li>Configure at least one network protocol</li> 
+
+                        <li>Install, configure and administer at least one server operating system</li>
+
+                        <li>Implement and administer a departmental local area network infrastructure</li>
+
+                        <li>Implement and administer a Directory Service infrastructure</li> 
+
+                        <li>Maintain of a secure local area network</li>
+
+                        <li>Troubleshoot a departmental local area network </li>
+
+                     </ol>
+
+                    <br/>
+
+                    <h5 class="border_">Admission requirements</h5>  
+
+                    <ol class="border_">
+
+                        <li>Communication: NQF Level 4.</li> 
+
+                        <li>Second Language: NQF Level 3.</li>
+
+                        <li>Mathematics: NQF Level 4</li>
+
+                    </ol>
+
+                    
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <h5 class="border_">Systems Support Programme Content </h5>
+
+            <!-- Panel Example 1 -->
+
+            <div class="panel border_">
+
+                <header class="panel-heading">
+
+                <h3 class="panel-title">
+
+                    Further Education and Training Certificate: Systems Support NQF Level 5
+
+                    <span class="description border_">Programme Duration: 18 Months (Full time)</span>
+
+                </h3>
+
+                </header>
+
+                <div class="panel-body">
+
+                    <div class="example table-responsive">
+
+                        <table class="table table-striped table-bordered" data-plugin="floatThead">
+
+                        <thead>
+
+                            <tr>
+
+                            <th></th>
+
+                            <th>Module ID</th>
+
+                            <th>Module Unit</th>
+
+                            <th>NQF Level</th>
+
+                            <th>Credits</th>
+
+                            </tr>
+
+                        </thead>
+
+
+
+                        <tbody aria-relevant="all" aria-live="polite">
+
+                            <tr class="odd">
+
+                                <td>Core </td>
+
+                                <td>14918 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Describe the principles of Computer Programming </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 3</td>
+
+                                <td>5 </td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Core</td>
+
+                                <td>14913<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Explain the principles of computer networks </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 3</td>
+
+                                <td>5 </td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Core</td>
+
+                                <td>14927<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Apply problem solving strategies </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>4 </td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Core</td>
+
+                                <td>14910 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Apply the principles of Computer Programming </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>8 </td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Core</td>
+
+                                <td>14933<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Demonstrate an understanding of creating multimedia/web-based computer applications with scripting </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>6 </td>
+
+                            </tr>
+
+
+
+                            <tr class="even">
+
+                                <td>Core</td>
+
+                                <td>14924<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Demonstrate an understanding of information systems analysis</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>3 </td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Core</td>
+
+                                <td>14930<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Demonstrate an understanding of the principles of developing software for the internet </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>3 </td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Core</td>
+
+                                <td>14909<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Describe the difference between programming in Object Orientated and Procedural Languages </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>4 </td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Core</td>
+
+                                <td>14915<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Design a computer program according to given specifications </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>8 </td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Core</td>
+
+                                <td>14917 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Explain computer architecture concepts </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>7 </td>
+
+                            </tr>
+
+
+
+                            <tr class="odd">
+
+                                <td>Core</td>
+
+                                <td>14944<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Explain how data is stored on computers </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>7 </td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Core</td>
+
+                                <td>14920 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Participate in groups and/or teams to recommend solutions to problems </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>3</td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Fundamental </td>
+
+                                <td>119472  <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Accommodate audience and context needs in oral/signed communication</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 3</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Fundamental</td>
+
+                                <td>119458  <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Analyse and respond to a variety of literary texts</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 3</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Fundamental</td>
+
+                                <td>119457 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Interpret and use information from texts</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 3</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+
+
+                            <tr class="even">
+
+                                <td>Fundamental</td>
+
+                                <td>119465<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Write/present/sign texts for a range of communicative contexts </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 3</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Fundamental</td>
+
+                                <td>12154 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Apply comprehension skills to engage oral texts in a business environment </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Fundamental</td>
+
+                                <td>9015 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Apply knowledge of statistics and probability to critically interrogate and effectively communicate findings on life related problems</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>6</td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Fundamental</td>
+
+                                <td>119462<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Engage in sustained oral/signed communication and evaluate spoken/signed texts</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Fundamental</td>
+
+                                <td>119469<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Read/view, analyse and respond to a variety of texts</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+
+
+
+
+                            <tr class="odd">
+
+                                <td>Fundamental</td>
+
+                                <td>9016<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Represent analyse and calculate shape and motion in 2-and 3-dimensional space in different contexts</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>4</td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Fundamental</td>
+
+                                <td>7468 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Use mathematics to investigate and monitor the financial aspects of personal, business, national and international issues</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>6</td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Fundamental</td>
+
+                                <td>119459<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Write/present/sign for a wide range of contexts </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Elective </td>
+
+                                <td>114636<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Demonstrate an understanding of preventative maintenance, environmental and safety issues in a computer environment </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 3</td>
+
+                                <td>6</td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Elective </td>
+
+                                <td>14912<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Investigate the use of computer technology in an organisation </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 3</td>
+
+                                <td>6</td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Elective</td>
+
+                                <td>10313<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Comply with service levels as set out in a Contact Centre Operation</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>10</td>
+
+                            </tr>
+
+
+
+                            <tr class="odd">
+
+                                <td>Elective</td>
+
+                                <td>14908<br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Demonstrate an understanding of testing IT systems against given specifications </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>6</td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Elective</td>
+
+                                <td>14926 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Describe information systems departments in business organisations</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>3</td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Elective</td>
+
+                                <td>14921 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Describe the types of computer systems and associated hardware configurations </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>6</td>
+
+                            </tr>
+
+                            <tr class="even">
+
+                                <td>Elective</td>
+
+                                <td>252210 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Handle a range of customer complaints </h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>4</td>
+
+                            </tr>
+
+                            <tr class="odd">
+
+                                <td>Elective</td>
+
+                                <td>14919 <br />
+
+                                    <i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star" aria-hidden="true"></i><i class="icon wb-star-half" aria-hidden="true"></i>
+
+                                </td>
+
+                                <td>
+
+                                    <h5>Resolve computer user`s problems</h5>
+
+                                    <small>Systems Development</small>
+
+                                </td>
+
+                                <td>NQF Level 4</td>
+
+                                <td>5</td>
+
+                            </tr>
+
+                        </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <!--Contact Starts-->
+
+  <div id="contact" class="spacer">
+
+    <div class="container contactform center">
+
+      <div class="row"> 
+
+        <div class="col-sm-6 col-xs-12 col-sm-offset-3">
+
+          <h2 class="text-center  wowload fadeInUp">Get in touch with LSDC</h2>
+
+          <p class="text-center  wowload fadeInUp">Are you ready to enroll or get more information? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+
+          <hr class="primary">
+
+        </div>
+
+        <!--div class="row border_"-->
+
+            <div class="col-sm-12 col-padding wowload fadeInLeft "> 
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.747008678303!2d28.143450215942142!3d-25.4132777837961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDI0JzQ3LjgiUyAyOMKwMDgnNDQuMyJF!5e0!3m2!1sen!2sza!4v1501665881412" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+
+                <hr class="primary">
+
+            </div>
+
+        <!--/div-->
+
+
+
+        <!--div class="row border_"-->
+
+          <div class="col-sm-6 wowload fadeInLeft border_">      
+
+            <div class="col-sm-6 wowload fadeInLeft"> 
+
+              <address>
+
+                <strong>Leseding Skills Development Centre</strong><br>
+
+                <a href="mailto:info@lapenglagae.co.za">info@lsdc.co.za</a><br />
+
+                <abbr title="Website">Website:</abbr> <a href="http://www.lsdc.co.za">www.lsdc.co.za</a><br />
+
+                <br />
+
+                You can also send an email directly to the following: <br />
+
+                <a href="mailto:lesedingskills@gmail.com">lesedingskills@gmail.com</a><br /> 
+
+              </address>
+
+            </div>
+
+            <div class="col-sm-6 wowload fadeInLeft ">
+
+              <address>
+
+                <strong>Head Office</strong><br>
+
+                7401b Molefe Makinda Rd<br>
+
+                Eesterus, Hammanskraal<br>
+
+                Pretoria, 0400<br>
+
+                <abbr title="Fax">Phone:</abbr> <strong>+27 (0) 12 786-0005</strong><br />
+
+                <abbr title="Fax">Fax:</abbr> <strong>+27 (0) 86 275-6822</strong><br />
+
+                <br />
+
+              </address>
+
+              <address>
+
+                <strong>Hammanskraal Campus</strong><br>
+
+                83 Harry Gwala Rd<br>
+
+                Temba<br>
+
+                Pretoria, 0407<br>
+
+                <abbr title="Fax">Phone:</abbr> <strong>+27 (0) 12 786-0005</strong><br />
+
+                <abbr title="Fax">Fax:</abbr> <strong>+27 (0) 86 275-6822</strong><br />
+
+                <br />
+
+              </address>
+
+            </div>
+
+          </div>
+
+          <div class="col-sm-6 wowload fadeInRight border_"> 
+
+            <input type="text" id="name_" placeholder="Name"><br />
+
+              <input type="text" id="email_" placeholder="Email"><br />
+
+              <input type="text" id="phone_" placeholder="Phone"><br />
+
+              <p>What would you like to study?</p>
+
+              <input type="text" id="course_" placeholder="Course"><br />
+
+              <textarea rows="5" id="message_" placeholder="Message"></textarea><br />
+
+              <button id="send_enquiry" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
+
+              <br />
+
+              <div id="server-response-image" style="border:1px dashed #d3d1d1;"></div> 
+
+              <script type="text/javascript">
+
+                  $(document).ready(function(){
+
+                    $('#server-response-image').hide();
+
+                    // Submit form
+
+                    var flag_name = false;
+
+                    var flag_email = false;
+
+                    var flag_phone = false;
+
+                    var flag_course = false;
+
+                    var flag_message = false;
+
+
+
+
+
+                    var _name = '';
+
+                    var _email = '';
+
+                    var _phone = '';
+
+                    var _course = '';
+
+                    var _message = '';
+
+
+
+                    //if the values have been entered submit the form
+
+                    $('#send_enquiry').click(function(){
+
+                      //check name
+
+                      if($('#name_').val()==''){
+
+                          $('#server-response-image').show();
+
+                          $('#server-response-image').html('<div class="error">Please provide your name!</div>');
+
+                          flag_name = false;
+
+                          return;
+
+                      }else{
+
+                          $('#server-response-image').hide();
+
+                          _name = $('#name_').val();
+
+                          flag_name = true;
+
+                      }
+
+
+
+                      //check email
+
+                      if($('#email_').val()==''){
+
+                          $('#server-response-image').show();
+
+                          $('#server-response-image').html('<div class="error">The email address must not be empty . Please provide email address!</div>');
+
+                          flag_email = false;
+
+                          return;
+
+                      }else{
+
+                          $('#server-response-image').hide();
+
+                          _email = $('#email_').val();
+
+                          if(ValidateEmail(_email)){
+
+                              $('#server-response-image').hide();
+
+                              flag_email = true;
+
+                          }else{
+
+                              $('#server-response-image').show();
+
+                              $('#server-response-image').html('<div class="error">Email address provided is not valid!</div>');
+
+                              flag_email - false;
+
+                              return;
+
+                          }
+
+                          
+
+                      }
+
+                      
+
+
+
+                      //check phone
+
+                      if($('#phone_').val()==''){
+
+                          $('#server-response-image').show();
+
+                          $('#server-response-image').html('<div class="error">The phone number must not be empty . Please provide phone number!</div>');
+
+                          flag_phone = false;
+
+                          return;
+
+                      }else{
+
+                          $('#server-response-image').hide();
+
+                          _phone = $('#phone_').val();
+
+                          if(phonenumber(_phone)){
+
+                              $('#server-response-image').show();
+
+                              flag_phone = true;
+
+                          }else{
+
+                              $('#server-response-image').show();
+
+                              $('#server-response-image').html('<div class="error">Phone number provided is not valid!</div>');
+
+                              flag_phone = false;
+
+                              return;
+
+                          }
+
+                          
+
+                      }
+
+
+
+                      //check course
+
+                      if($('#course_').val()==''){
+
+                          $('#server-response-image').show();
+
+                          $('#server-response-image').html('<div class="error">Please tell us what would you like to study with us!</div>');
+
+                          flag_name = false;
+
+                          return;
+
+                      }else{
+
+                          $('#server-response-image').hide();
+
+                          _course = $('#course_').val();
+
+                          flag_course = true;
+
+                      }
+
+
+
+                      //check comment
+
+                      if($('#message_').val()==''){
+
+                          $('#server-response-image').show();
+
+                          $('#server-response-image').html('<div class="error">Enquiry message cannot be empty. Please provide the message!</div>');
+
+                          flag_message = false;
+
+                          return;
+
+                      }else{
+
+                          $('#server-response-image').hide();
+
+                          _message = $('#message_').val();
+
+                          flag_message = true;
+
+                      }
+
+                
+
+
+
+                      //validate and submit form
+
+                      if(flag_name == true && flag_email == true && flag_phone == true && flag_message == true){
+
+                          $('#server-response-image').hide();
+
+                          postenquiry(_name, _email, _phone, _course, _message);
+
+                      }else{
+
+                          $('#server-response-image').show();
+
+                          $('#server-response-image').html('<div class="error">Enquiry could not be made. Please check if every field has been provided!</div>');
+
+                      }
+
+                    });
+
+
+
+                    function postenquiry(_name, _email, _phone, _course, _message){
+
+                          var galz = new XMLHttpRequest();
+
+                          var url = "PHPMailer/examples/signup.php";
+
+                          var vars = "name_="+_name+"&email_="+_email+"&phone_="+_phone+"&course_="+_course+"&message_="+_message;
+
+                          alert(vars);
+
+                          galz.open("POST", url, true);
+
+                          galz.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
+                          galz.onreadystatechange = function(){
+
+                              if (galz.readyState == 4 && galz.status == 200) {
+
+                                  var return_data = galz.responseText;
+
+                                  if(return_data == true){
+
+                                      $('#server-response-image').show();
+
+                                      document.getElementById("server-response-image").innerHTML = '<p>Registration enquiry was successfully sent to our info email address. We will get back to you as soon as possible.</p>';
+
+                                  }else{
+
+                                      //show the server response for the errors returned from the server side scripting 
+
+                                      $('#server-response-image').show();
+
+                                      document.getElementById("server-response-image").innerHTML = '<p>Registration enquiry was not successfully sent, something must have gone wrong during the update!</p>';
+
+                                  }
+
+
+
+                              }
+
+                          }
+
+                          //send the data to php now
+
+                          //and wait for response to update the status div
+
+                          galz.send(vars);//actually axecute the request
+
+                          document.getElementById("server-response-image").innerHTML = "<p>processing...</p>";
+
+                          
+
+                    }
+
+
+
+                    //validate phone number
+
+                    function phonenumber(phone){
+
+                      //var phoneno = /^\d{10}$/;
+
+                      var phoneno = /^\d{10}$/;
+
+                      var digits = phone.replace(/\D/g, "");
+
+                      if(phoneno.test(digits)){
+
+                          return true;
+
+                      }else{
+
+                          return false;
+
+                      }
+
+                    }
+
+
+
+                    //email validation
+
+                    function ValidateEmail(email_){ 
+
+                      var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+
+                      if(mailformat.test(email_))  
+
+                      {  
+
+                          return true;  
+
+                      }  
+
+                      else  
+
+                      {  
+
+                          return false;  
+
+                      } 
+
+                    }
+
+                  });     
+
+              </script>
+
+          </div>
+
+        <!--/div-->
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- Footer -->
+
+  <footer class="site-footer">
+
+    <div class="container border_">
+
+      <div class="site-footer-legal">© <span id="yearcp">2016</span>&nbsp;<a href="http://www.lsdc.co.za">Leseding Skills Development Centre</a></div>
+
+      <div class="site-footer-right">
+
+        Designed by <a href="http://www.chedzaictsolutions.co.za" target="_blank">Chedza ICT Solutions</a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Core  -->
+
+  
+
+  <script src="../../../global/vendor/bootstrap/bootstrap.js"></script>
+
+  <script src="../../../global/vendor/animsition/animsition.js"></script>
+
+  <script src="../../../global/vendor/asscroll/jquery-asScroll.js"></script>
+
+  <script src="../../../global/vendor/mousewheel/jquery.mousewheel.js"></script>
+
+  <script src="../../../global/vendor/asscrollable/jquery.asScrollable.all.js"></script>
+
+  <script src="../../../global/vendor/ashoverscroll/jquery-asHoverScroll.js"></script>
+
+  <!-- Plugins -->
+
+  <script src="../../../global/vendor/switchery/switchery.min.js"></script>
+
+  <script src="../../../global/vendor/intro-js/intro.js"></script>
+
+  <script src="../../../global/vendor/screenfull/screenfull.js"></script>
+
+  <script src="../../../global/vendor/slidepanel/jquery-slidePanel.js"></script>
+
+  <script src="../../../global/vendor/isotope/isotope.pkgd.min.js"></script>
+
+  <script src="../../../global/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Scripts -->
+
+  <script src="../../../global/js/core.js"></script>
+
+  <script src="../../assets/js/site.js"></script>
+
+  <script src="../../assets/js/sections/menu.js"></script>
+
+  <script src="../../assets/js/sections/menubar.js"></script>
+
+  <script src="../../assets/js/sections/sidebar.js"></script>
+
+  <script src="../../../global/js/configs/config-colors.js"></script>
+
+  <script src="../../assets/js/configs/config-tour.js"></script>
+
+  <script src="../../../global/js/components/asscrollable.js"></script>
+
+  <script src="../../../global/js/components/animsition.js"></script>
+
+  <script src="../../../global/js/components/slidepanel.js"></script>
+
+  <script src="../../../global/js/components/switchery.js"></script>
+
+  <script src="../../../global/js/components/filterable.js"></script>
+
+  <script src="../../assets/examples/js/pages/gallery.js"></script>
+
+  <script>
+
+  (function(document, window, $) {
+
+    'use strict';
+
+    var Site = window.Site;
+
+    $(document).ready(function() {
+
+      Site.run();
+
+    });
+
+  })(document, window, jQuery);
+
+  </script>
+
+<script src="../../../global/js/year.js"></script>
+</body>
+
+</html>

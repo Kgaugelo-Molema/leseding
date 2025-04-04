@@ -1,0 +1,658 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202301 will be lost/reset.
+# Last config file used to build this data file was /home/lesedin1/domains/lesedingconsulting.co.za/awstats/.data/awstats.lesedingconsulting.co.za.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2126                
+POS_TIME 2784                
+POS_VISITOR 16351               
+POS_DAY 19003               
+POS_DOMAIN 3513                
+POS_LOGIN 3744                
+POS_ROBOT 3899                
+POS_WORMS 4570                
+POS_EMAILSENDER 4701                
+POS_EMAILRECEIVER 4844                
+POS_SESSION 19588               
+POS_SIDER 19778               
+POS_FILETYPES 4979                
+POS_DOWNLOADS 5200                
+POS_OS 5248                
+POS_BROWSER 5594                
+POS_SCREENSIZE 6550                
+POS_UNKNOWNREFERER 6624                
+POS_UNKNOWNREFERERBROWSER 6737                
+POS_ORIGIN 6845                
+POS_SEREFERRALS 6981                
+POS_PAGEREFS 7158                
+POS_SEARCHWORDS 7379                
+POS_KEYWORDS 7531                
+POS_MISC 2448                
+POS_ERRORS 7590                
+POS_CLUSTER 3600                
+POS_SIDER_400 15944               
+POS_SIDER_404 7717                
+POS_SIDER_403 16026               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230201023514 1 0 3667483389316
+FirstTime 0
+LastTime 20230130201307
+LastUpdate 20230201053429 1 0 0 0 0
+TotalVisits 51                  
+TotalUnique 50                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 73                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 8019 3 4 9588
+1 0 0 0 12 45 170436
+2 0 0 0 6 20 93404
+3 8 39 315375 144 163 466674
+4 0 0 0 5 9 23212
+5 1 1 34794 3 4 10019
+6 1 8 526494 11 47 7042588
+7 5 147 28436594 6 6 35579
+8 0 0 0 4 8 7425
+9 6 6 57632 27 27 37577
+10 4 136 23966782 2 4 3530
+11 8 58 10884321 28 121 2237608
+12 3 66 11627732 42 101 8247352
+13 2 2 42813 11 13 48249
+14 3 37 7014652 16 19 22103
+15 3 48 7864484 3 7 46652
+16 2 2 69588 22 152 1209814
+17 5 5 66870 12 23 92068
+18 5 42 39208 15 29 822113
+19 0 0 0 4 4 43598
+20 5 73 7123478 18 19 162512
+21 1 1 7982 4 6 7871
+22 13 73 2738615 27 70 3938926
+23 2 52 3169940 11 15 33149
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 78 797 103995373
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+Googlebot/ 143 7780254 20230129020606 0
+bingbot/ 109 889537 20230131161013 0
+facebookexternalhit/ 65 3913142 20230130192820 0
+java 48 3863111 20230116223937 0
+dataprovider\.com 38 7270790 20230113123951 0
+bingpreview 8 260220 20230130162904 0
+Googlebot\-Image/ 7 150927 20230126152959 0
+zoominfobot 6 47892 20230127061411 0
+bbot 4 35155 20230101013007 0
+Apache\-HttpClient/ 2 694 20230118062339 0
+curl 1 8019 20230119191044 0
+Go\-http\-client/ 1 8019 20230111120834 0
+python 1 8019 20230116164103 0
+no_user_agent 2 34794 20230107081031 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+woff 9 299490 0 0
+js 186 2298997 0 0
+css 186 2315719 0 0
+woff2 38 1431212 0 0
+html 10 98381 0 0
+jpg 163 80647411 0 0
+png 137 15725845 0 0
+php 68 1178318 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 21
+macosx8 1 1
+macosx5 1 1
+win8.1 16 2
+androidnougat 1 1
+macosx6 1 1
+Unknown 14 0
+linux 64 8
+linuxubuntu 2 2
+android10 106 5
+macosx10 10 10
+winlong 2 2
+winnt 4 4
+macosx15 65 9
+androidpie 36 2
+android 142 4
+win7 1 1
+androidoreo 35 1
+win10 228 20
+ios_iphone 66 2
+win8 1 1
+macosx12 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 44
+opera52.0.2871.99 15 1
+firefox60.0 1 1
+msie11.0 18 4
+chrome105.0.0.0 7 7
+chrome51.0.2700.0 1 1
+chrome50.0.2661.102 2 2
+chrome107.0.0.0 69 2
+Unknown 14 0
+chrome51.0.2704.103 5 5
+firefox49.0 2 2
+chrome55.0.2883 1 1
+firefox105.0 2 2
+chrome102.0.5005.61 11 0
+opera10.00 1 1
+chrome86.0.4240.75 3 3
+chrome109.0.0.0 105 4
+chrome102.0.5005.125 70 2
+chrome18.0.1025.151 1 1
+opera9.80 16 2
+chrome99.0.4844.83 25 1
+chrome17.0.963.6 1 1
+chrome81.0.4044.138 34 1
+chrome80.0.3987 1 1
+chrome108.0.0.0 68 3
+chrome79.0.3945.116 36 2
+chrome80.0.3987.162 1 1
+safari15.6.1 31 1
+safari5.0.2 2 2
+chrome99.0.4844.51 2 1
+chrome24.0.1290.1 1 1
+chrome50.0.2227.0 38 2
+chrome97.0.4692.98 38 1
+chrome91.0.4472.114 37 6
+chrome39.0.2171.95 1 1
+msie7.0 1 1
+chrome108.0.5359.98 33 1
+chrome87.0.4280.101 35 1
+chrome100.0.4896.127 27 2
+chrome60.0.3095.0 1 1
+iphone 35 1
+safari5.0 1 1
+safari15.1 1 1
+chrome60.0.3112.107 1 1
+firefox59.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+cortex/1.0 20230122074907
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+cortex/1.0 20230122074907
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 45 70
+From1 0 0
+From2 3 17
+From3 4 4
+From4 26 706
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+yandexru 0 14
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://l.facebook.com 2 2
+https://l.wl.co 1 1
+http://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 2 2288
+404 321 489781
+403 6 9132
+302 141 40273
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 225
+/global/vendor/flag-icon-css/flag-icon.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/h.php 1 -
+/new.php 1 -
+/res/courses/wholesale.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/web/wp-includes/wlwmanifest.xml 1 -
+/s.php 1 -
+/wp-blog.php 1 -
+/license.php 1 -
+/13.php 1 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/n.php 1 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/global/fonts/web-icons/web-icons.min.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/vuln.php 1 -
+/uploads/up.php 1 -
+/global/vendor/slidepanel/slidePanel.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/global/vendor/magnific-popup/magnific-popup.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/sito/wp-includes/wlwmanifest.xml 1 -
+/.well-known/ 1 binance.com
+/res/courses/web.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/global/css/bootstrap-extend.min.css 2 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/0z.php 1 -
+/i.php 1 -
+/courses/systems-support.html 1 -
+/uploads/ 1 binance.com
+/haxor.php 1 -
+/fx.php 1 -
+/uoewewaj.php 1 www.google.com
+/w3llstore.php 1 -
+/assets/css/site.min.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/old-index.php 1 -
+/wso2.php 1 -
+/alfacgiapi/perl.alfa 1 www.google.com
+/res/courses/office-admin.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/wso.php 1 -
+/wp-content/themes/seotheme/db.php 4 www.google.com
+/shell.php 1 -
+/images/ 1 binance.com
+/wp-admin/css/ 1 binance.com
+/9.php 1 -
+/res/courses/call-centre.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/01.php 1 -
+/11index.php 1 -
+/wp-admin.php 1 -
+/alfashell.php 1 -
+/sites/default/files/ 1 binance.com
+/courses/systems-development.html 1 -
+/res/courses/consumer.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/Alfa.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/css/buttons.css 1 -
+/res/courses/gallery.html 2 -
+/a.php 1 -
+/bypass.php 1 -
+/u.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/wp-plain.php 2 www.google.com
+/100.php 1 -
+/l.php 1 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/about.php 1 -
+/res/courses/computer-literacy.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/k.php 1 -
+/hello.php 1 -
+/wp-file.php 1 -
+/res/courses/health.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/res/courses/networking.html 2 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/content.php 1 -
+/mini.php 1 -
+/blog/wp-includes/wlwmanifest.xml 1 -
+/1337.php 1 -
+/ok.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/ups.php 1 -
+/f.php 1 -
+/wp-content/fw.php 1 -
+/wp-admin/fw.php 1 -
+/wp2.php 1 -
+/xleet-shell.php 1 -
+/wp.php 1 -
+/wp-includes/js/jquery/jquery.js 1 -
+/r.php 1 -
+/res/courses/advertising.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/admin/controller/extension/extension/ 1 binance.com
+/public/403.php 1 -
+/res/courses/css/animate.min.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/q.php 1 -
+/res/courses/css/set.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/assets/examples/css/pages/gallery.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/media/system/js/core.js 1 -
+/wp-info.php 1 -
+/res/courses/fire-fighting.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/templates/beez5/index.php 1 -
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/wp-includes/991176.php 1 -
+/edit-form.php 1 -
+/radio.php 1 -
+/res/courses/sound.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/mar.php 1 -
+/res/courses/end-user.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/shx.php 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/res/courses/about-us.html 2 -
+/1.php 1 -
+/wp-content/plugins/linkpreview/db.php 1 www.google.com
+/alf.php 1 -
+/xltavrat.php 1 -
+/courses/technical-support.html 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/wp-content/plugins/seoplugins/mar.php 1 -
+/res/courses/crane.html 3 -
+/w.php 1 -
+/WSO.php 1 -
+/blog.php 1 -
+/FoxWSO.php 1 -
+/xl.php 1 -
+/p.php 1 -
+/19837437_notfound.html 2 http://lesedingconsulting.co.za
+/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/res/courses/images/leseding05.png 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/res/courses/css/responsive.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/g.php 1 -
+/wp-admin/js/widgets/wp-login.php 1 -
+/res/courses/images/books.jpg 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/alfa.php 1 -
+/403.php 1 -
+/wp-admin/radio.php 1 -
+/3.php 1 -
+/autoload_classmap.php 1 -
+/rss.php 1 -
+/priv8.php 1 -
+/about.php 1 -
+/res/courses/receptionist.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/wp-content/x.php 1 -
+/wp_wrong_datlib.php 1 -
+/global/vendor/asscrollable/asScrollable.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/admin/index.php 1 -
+/c99.php 1 -
+/0byte.php 1 -
+/uploader.php 1 -
+/administrator/index.php 1 -
+/wp-commentin.php 1 -
+/robots.txt 56 -
+/makhdamx.php 2 -
+/xleet.php 1 -
+/wp-admin/maint/about.php 1 -
+/res/courses/css/main.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/mari.php 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/login.php 1 -
+/res/courses/data-capturing.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/global/css/bootstrap.min.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/xmlrpc.php 2 -
+/y.php 1 -
+/404.php 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/images/about.php 1 -
+/up.php 1 -
+/wp-login.php 1 -
+/wp-content/wp.php 1 -
+/res/courses/foklift.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/res/courses/images/background02.png 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/wp-content/themes/seotheme/mar.php 1 -
+/xxx.php 1 -
+/ads.txt 1 -
+/xx.php 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/global/fonts/brand-icons/brand-icons.min.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/z.php 1 -
+/fox.php 1 -
+/global/vendor/animsition/animsition.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/res/courses/index.html 3 -
+/global/fonts/font-awesome/font-awesome.min.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/10.php 1 -
+/index.html 1 -
+/doc.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/ 1 -
+/wp-class.php 1 -
+/res/courses/accreditation.html 2 -
+/5.php 1 -
+/fw.php 1 -
+/res/courses/systems-development2.html 1 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/wp-content/themes/pridmag/db.php 1 www.google.com
+/wp-includes/shell20211028.php 1 -
+/jindex.php 1 -
+/root.php 1 -
+/4.php 1 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/wikindex.php 1 -
+/wordpress/ 2 -
+/o.php 1 -
+/1index.php 1 -
+/goods.php 1 -
+/sitemap.xml 1 -
+/wso1.php 1 -
+/date.php 1 -
+/marijuana.php 1 -
+/admin/login.php 1 -
+/tvpqmdtd.php 1 www.google.com
+/wp-content/about.php 1 -
+/res/courses/ecd.html 2 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/wp-admin/css/fw.php 1 -
+/e.php 1 -
+/2index.php 1 -
+/sh.php 1 -
+/wp-includes/wp-class.php 1 -
+/0.php 1 -
+/c.php 1 -
+/v.php 1 -
+/2.php 1 -
+/global/vendor/switchery/switchery.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/alwso.php 1 -
+/res/courses/leadership.html 3 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/m.php 1 -
+/x.php 1 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/global/vendor/intro-js/introjs.css 2 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/files/ 1 binance.com
+/b.php 1 -
+/wp-uploads.php 1 -
+/res/courses/cashier.html 2 http://www.lesedingconsulting.co.za/res/courses/systems-development.html
+/ws.php 1 -
+/small.php 1 -
+END_SIDER_404
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 2
+/res/ 4 -
+/ 2 -
+END_SIDER_403
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 73
+18.132.212.201 8 54 2027075 20230116230348
+35.177.198.147 6 38 1419384 20230125225810
+3.23.105.11 6 37 299879 20230119034243
+104.198.200.135 5 5 49613 20230118095521
+198.199.122.157 4 4 32076 20230111170625
+35.89.126.7 2 2 69588 20230113172252
+105.4.4.96 2 36 6984602 20230114073416
+20.114.167.1 2 2 16038 20230104183828
+105.245.104.65 2 36 7006633 20230129152951
+167.235.57.27 1 1 34794 20230113112342
+105.187.240.7 1 35 6990583 20230114103733
+146.19.37.39 0 2 116208 
+173.252.127.8 0 1 17008 
+197.184.160.1 1 35 7011964 20230128205717
+69.171.230.119 0 1 9836 
+54.190.111.63 1 1 34794 20230130201307
+64.246.165.210 1 1 7982 20230120212725
+69.63.184.5 0 1 113438 
+66.220.149.1 0 1 113438 
+170.178.154.238 1 2 17966 20230116110736
+69.171.251.116 0 1 9836 
+146.190.115.208 1 1 8019 20230102143925
+149.56.150.188 1 1 34794 20230113123930
+160.48.234.77 1 34 6976790 20230127122639
+146.19.37.70 0 2 493185 
+173.252.127.23 0 1 278775 
+46.45.185.185 1 1 8019 20230103030425
+31.13.127.18 0 1 29831 
+52.13.70.254 1 1 34794 20230106163023
+46.45.185.178 1 1 8019 20230113095412
+20.120.20.152 1 1 8019 20230114112009
+64.140.136.167 1 25 3879614 20230116110736
+54.212.212.215 1 1 34794 20230110051629
+93.113.125.192 0 1 6572 
+146.19.206.15 1 1 7477 20230118150840
+31.13.127.116 0 1 278775 
+31.13.127.21 0 1 24806 
+199.244.88.218 1 1 8019 20230127005705
+105.4.2.105 1 34 3169900 20230114103729
+34.221.195.13 1 1 34794 20230123201058
+13.89.224.90 1 1 7477 20230110035446
+197.184.177.141 1 32 6815716 20230112101851
+173.252.127.24 0 1 44818 
+41.216.202.46 1 35 6968516 20230115155855
+197.185.96.6 1 35 7132 20230104202410
+31.13.127.20 0 10 568250 
+102.132.189.56 1 38 7132 20230130180454
+64.246.161.30 1 1 7982 20230104062402
+173.252.127.20 0 1 24806 
+20.65.12.13 1 1 8019 20230104183617
+172.58.58.230 0 7 574344 
+49.12.5.226 1 1 8019 20230128110451
+172.58.62.147 1 7 4420599 20230114103916
+31.13.127.17 0 1 17008 
+173.252.107.3 0 1 44818 
+31.13.127.6 0 12 2014941 
+20.114.162.104 1 1 8019 20230104183003
+172.58.63.176 0 12 878900 
+31.13.127.4 1 12 4374205 20230122074825
+196.207.39.33 1 35 6998614 20230123071008
+34.216.233.130 1 1 34794 20230116202203
+207.32.152.67 1 2 17769 20230116110737
+139.59.102.26 1 1 8019 20230102131513
+64.140.134.8 1 25 6907000 20230116110726
+20.225.201.31 1 1 34794 20230107132039
+105.245.122.60 1 31 4616148 20230110123010
+20.120.20.163 1 1 11140 20230114111503
+216.218.147.199 1 33 2462096 20230110232105
+20.120.20.138 1 1 8019 20230113140331
+41.150.210.124 1 35 6977470 20230113073249
+66.220.149.2 0 1 29831 
+93.113.124.197 0 6 264507 
+172.58.60.61 0 9 1116740 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20230102 2 2 16038 2
+20230103 1 1 8019 1
+20230104 6 40 47190 5
+20230105 1 1 34794 1
+20230106 1 1 34794 1
+20230107 1 1 34794 1
+20230110 4 66 7120515 4
+20230111 4 4 32076 1
+20230112 1 32 6815716 1
+20230113 6 40 7097890 6
+20230114 7 142 24154827 6
+20230115 1 42 7487028 1
+20230116 13 109 12884218 6
+20230118 6 17 937562 2
+20230119 6 37 299879 1
+20230120 1 1 7982 1
+20230122 1 41 7475908 1
+20230123 2 36 7033408 2
+20230125 6 38 1419384 1
+20230127 2 35 6984809 2
+20230128 2 36 7019983 2
+20230129 2 36 7006633 1
+20230130 2 39 41926 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30s-2mn 1
+0s-30s 46
+30mn-1h 1
+5mn-15mn 2
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/res/ 72 1209507 48 47
+/res/courses/technical-support.html 3 33420 2 2
+/res/courses/systems-support.html 2 22674 1 2
+/res/courses/systems-development.html 1 11098 0 0
+END_SIDER

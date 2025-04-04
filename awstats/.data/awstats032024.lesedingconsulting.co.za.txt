@@ -1,0 +1,1933 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202403 will be lost/reset.
+# Last config file used to build this data file was /home/lesedin1/domains/lesedingconsulting.co.za/awstats/.data/awstats.lesedingconsulting.co.za.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2160                
+POS_TIME 2819                
+POS_VISITOR 50052               
+POS_DAY 53668               
+POS_DOMAIN 3611                
+POS_LOGIN 3842                
+POS_ROBOT 3997                
+POS_WORMS 4903                
+POS_EMAILSENDER 5034                
+POS_EMAILRECEIVER 5177                
+POS_SESSION 54299               
+POS_FILESIZE 54746               
+POS_SIDER 54484               
+POS_FILETYPES 5312                
+POS_DOWNLOADS 5508                
+POS_OS 5556                
+POS_BROWSER 5842                
+POS_SCREENSIZE 7326                
+POS_UNKNOWNREFERER 7400                
+POS_UNKNOWNREFERERBROWSER 7573                
+POS_ORIGIN 7655                
+POS_SEREFERRALS 7790                
+POS_PAGEREFS 7953                
+POS_SEARCHWORDS 8101                
+POS_KEYWORDS 8253                
+POS_MISC 2483                
+POS_ERRORS 8312                
+POS_CLUSTER 3698                
+POS_SIDER_403 48685               
+POS_SIDER_400 48603               
+POS_SIDER_404 8446                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240401051419 1 0 11211676753879
+FirstTime 0
+LastTime 20240330174310
+LastUpdate 20240401061617 1 0 0 0 0
+TotalVisits 88                  
+TotalUnique 85                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 96                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 5 147084 1279 1336 9151661
+1 4 4 17469 38 63 168145
+2 5 5 120524 12 48 6532699
+3 2 2 16038 20 31 258243
+4 5 5 88723 23 45 236606
+5 10 76 11719183 474 486 812204
+6 8 8 182420 244 248 596288
+7 3 3 43084 34 40 158728
+8 3 3 77533 26 30 147637
+9 4 70 14017116 40 51 169959
+10 6 19 136106 23 44 141641
+11 5 5 59159 536 549 904310
+12 22 72 7386958 360 371 659994
+13 4 4 43121 384 393 727100
+14 3 3 104271 22 59 179741
+15 6 6 39635 146 154 326229
+16 10 10 213917 46 126 7665191
+17 4 4 24122 30 33 93907
+18 2 2 8327 20 53 86215
+19 3 26 2958236 243 251 459390
+20 5 39 7038961 36 60 83735
+21 3 3 8327 46 63 106329
+22 10 10 185937 322 344 829621
+23 4 4 112290 30 52 170061
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 136 388 44748541
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+Googlebot/ 118 13885504 20240330174103 0
+zoominfobot 113 1162396 20240327140214 0
+dataprovider\.com 39 7305762 20240322161123 0
+bingbot/ 38 548047 20240321134327 0
+no_user_agent 12 388611 20240324125340 0
+PetalBot 9 91207 20240311141331 0
+crawl 8 64820 20240329230534 0
+Go\-http\-client/ 8 64115 20240328102125 0
+nutch 6 53114 20240331182734 0
+sift 6 209261 20240326075352 0
+Googlebot\-Image/ 3 64683 20240323115819 0
+urllib 1 308 20240303163940 0
+MJ12bot/ 4 29908 20240310131336 0
+^mozilla\/5\.0$ 1 8019 20240319205125 0
+[\s_+:,\.\;\/\\-]bot 1 8019 20240319092343 0
+SemrushBot/ 5 50079 20240327225256 0
+BW/ 1 7982 20240314101901 0
+nbot 5 49428 20240311002645 0
+bot[\s_+:,\.\;\/\\-] 4 25254 20240319101309 0
+bbot 6 57632 20240322232706 0
+Applebot/ 4 32076 20240322135746 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+jpg 61 35157234 0 0
+php 126 2026054 0 0
+html 10 61988 0 0
+js 69 564303 0 0
+css 59 369271 0 0
+woff2 16 751064 0 0
+png 47 5818627 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+macosx 7 1
+win8.1 5 5
+androidkitkat 3 3
+macosx12 1 1
+win10 156 62
+Unknown 3 3
+macosx15 44 11
+android10 1 1
+winnt 3 1
+macos11 8 8
+androidoreo 24 1
+linuxubuntu 5 5
+win8 1 1
+macosx11 11 11
+winlong 3 3
+linux 108 14
+win7 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 68
+chrome101.0.4951.54 34 1
+chrome119.0.6045.199 7 0
+chrome118.0.0.0 35 2
+chrome53.0.2785.143 1 1
+chrome63.0.3239.84 1 1
+chrome54.0.2136 1 0
+firefox107.0 5 5
+chrome75.0.3770.100 1 1
+chrome88.0.2469 1 0
+chrome58.0.3029.110 2 2
+chrome74.0.3729.157 3 2
+firefox75.0 1 1
+chrome78.0.606 1 0
+chrome123.0.0.0 1 1
+msie7.0 1 1
+chrome17.0.963.56 1 1
+mozilla 3 3
+chrome106.0.2646 1 0
+chrome114.0.0.0 1 1
+chrome83.0.979 1 1
+chrome42.0.2312.90 1 1
+firefox122.0 1 1
+chrome91.0.4472.124 1 1
+chrome120.0.0.0 10 10
+chrome65.0.877 1 0
+chrome85.0.4183.121 6 5
+chrome105.0.0.0 1 1
+chrome122.0.0.0 36 3
+firefox41.0 1 1
+firefox119.0 3 3
+chrome109.0.0.0 2 2
+chrome82.0.2359 1 0
+chrome71.0.2262 1 0
+chrome86.0.4240.198 1 1
+chrome50.0.2661.102 11 11
+chrome68.0.3440.106 2 2
+chrome52.0.997 1 0
+chrome81.0.1899 1 0
+chrome103.0.0.0 1 1
+chrome87.0.448 1 1
+chrome111.0.0.0 1 1
+chrome116.0.0.0 3 3
+opera53.0.2907.68 2 2
+chrome77.0.3835.0 18 1
+chrome74.0.3729.169 6 6
+chrome106.0.0.0 1 1
+android 2 2
+chrome23.0.1271.26 1 1
+chrome79.0.3945.130 4 4
+chrome95.0.4638.54 1 1
+chrome87.0.4280.88 8 8
+chrome66.0.3359.181 8 8
+firefox63.0 1 1
+chrome115.0.0.0 2 2
+chrome117.0.0.0 36 3
+chrome80.0.3987.162 1 1
+chrome110.0.5478.0 1 1
+chrome120.0.6099.71 4 4
+chrome122.0.6261.90 24 1
+chrome89.0.4389.114 4 4
+chrome45.0.2454.99 3 3
+chrome86.0.4240.75 1 1
+chrome93.0.2306 1 0
+chrome91.0.4472.114 2 2
+chrome121.0.0.0 2 2
+chrome117.0.5938.132 64 5
+chrome91.0.1089 1 0
+chrome93.0.187 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240311011007
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 83 96
+From1 0 0
+From2 6 6
+From3 0 0
+From4 47 286
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 263 82876
+301 38 40410
+404 4149 6269537
+403 76 114065
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1422
+/.well-known/about.php 16 -
+/wp-content/vuln.php 1 -
+/wp-admin/admin.php 3 -
+/menu.php 1 -
+/1975.php 2 -
+/style.php 5 -
+/ioxi002.PhP7 2 -
+/3.php 1 -
+/wp-content/plugins/3asba/ 2 -
+/.well-known/security.txt 1 -
+/wp-includes/SimplePie/XML/ 2 -
+/license.php 1 -
+/wp-admin/includes/inc.php 3 -
+/new.php 3 -
+/rss.php 1 -
+/administrator/index.php 1 -
+/if.php 1 -
+/wp-content/themes/twentysixteen/ 2 -
+/pi.php 2 -
+/humans.txt 1 -
+/wp-includes/Requests/Exception/ 2 -
+/wp-includes/uct.php 2 -
+/images/sym.php 1 -
+/text.php 1 -
+/xmlrpc.php 5 -
+/images/css/json/ 2 -
+/wp-admin/wp.php 1 -
+/wp-admin/css/colors/ocean/ 2 -
+/tmp_images/alfacgiapi/perl.alfa.php 1 -
+//wp-content/themes/twenty/twenty.php 1 -
+/load-styles.php 2 -
+/wp-content/uploads/wpr-addons/forms/dae.php 1 -
+/wp-admin/js/404.php 1 -
+/wp-content/plugins/wp-db-ajax-made/wp-ajax.php 1 -
+/2.php 1 -
+/test.php 2 -
+/templates/cassiopeia/ 2 -
+/.well-known/acme-challenge/license.php 3 -
+/wp-admin/images/admin.php 2 -
+/wp-includes/amaxx.php 2 -
+/wp-content/themes/seotheme/ 2 -
+/files/home.php 2 -
+/wp/wp-content/themes/ 2 -
+/wp-includes/ 3 -
+/ern1.php 1 -
+/wp-admin/css/colors/ectoplasm/wp-ss.php 1 -
+/ioxi-rex4.php7 2 -
+//wp-admin/js/about.php7 1 -
+/wp-content/uploads/wp-stream.php 1 -
+/user.php 2 -
+/wp-content/plugins/seoplugins/ 2 -
+//wp-includes/install.php 1 -
+/libraries/vendor/updates.php 13 -
+/Update/ran.php 2 -
+/lf.php 1 -
+/wordpress/wp-admin/ 2 -
+/wp-content/plugins/core/include.php 3 -
+/wp-includes/ID3 2 -
+/wp-includes/random_compat/about.php 2 -
+/wp-content/plugins/TOPXOH/ 2 -
+/wp-content/plugins/wp-doftx/noimg.php 1 -
+/wp-includes/blocks/table/int/tmpl/ 3 -
+/wp-content/themes/twentyfourteen/genericons/ 2 -
+/wp-content/themes/tpmgaxl/ 2 -
+/alfacgiapi/perl.alfa.php 1 -
+/wp-admin/xx.php 1 -
+/new/wp-content/themes/ 2 -
+//wp-includes/js/tinymce/plugins/compat3x/css/index.php 1 -
+/wp-class.php 1 -
+/wp-admin/maint/moon.php 1 -
+/minik.php 3 -
+/wp-includes/images/crystal/ 2 -
+/wp-includes/js/codemirror/ 2 -
+/cjfuns.php 3 -
+/bk 6 -
+/wp-content/plugins/ern/ 2 -
+/bak.php 4 -
+/FoxWSOv1.php 1 -
+/wp-content/themes/mero-megazines/ws.php 1 -
+/emergency.php 1 -
+/olu.php 1 -
+/wp-admin/x.php 3 -
+/wp-header.php 1 -
+/xl.php 1 -
+/2019/wp-includes/wlwmanifest.xml 3 -
+/wp-content/uploads/2022/ 2 -
+/new-index.php 1 -
+/wp-content/ALFA_DATA/alfacgiapi/ 2 -
+/wp-content/uploads/revslider/templates/architecture-text-block/ 2 -
+/wp-includes/alfacgiapi/perl.alfa.php 1 -
+/.well-known/index.php 3 -
+/wp-content/plugins/revslider/includes/external/page/index.php 3 -
+/symlink.php 1 -
+/wp-includes/classwithtostring.php 1 -
+/xz.php 1 -
+/assets/ 3 -
+/wp-content/plugins/css-ready/ 2 -
+/rxr.php 2 -
+/wp-includes/pomo/about.php 13 -
+/cli/ 2 -
+/feed/ 1 -
+/wp-content/plugins/Update/ran.php 1 -
+/.well-known/admin.php 3 -
+/wp-admin/css/colors/light/image-edit.php 1 -
+/wp-admin/shapes.php 1 -
+/informacione.php 1 -
+/wp-login.php 16 -
+/res/sitemap.xml 4 -
+/wp-content/uploads/2023/09/ 2 -
+/WSO.php 1 -
+/templates/rhuk_milkyway/ 2 -
+/wp-content/plugins/html404/index.html 1 -
+/0z.php 3 -
+/wp-includes/js/plupload/ 2 -
+/minimo.php 1 -
+/files/ALFA_DATA/alfacgiapi/perl.alfa.php 1 -
+/.well-known/pki-validation/rrr.php 2 -
+/.well-known/ALFA_DATA/alfacgiapi/ 2 -
+/NewFile.php 1 -
+/owl.php 1 -
+/wp-admin/css/colors/light/wp-admin/css/colors/light/ 2 -
+/XxX.php 1 -
+/f.php 1 -
+/date.php 1 -
+/ccx/ 2 -
+/wp-includes/Requests/library/ 2 -
+/wp-admin/css/colors 3 -
+/res/courses/wholesale.html 1 -
+/oh.php 1 -
+/anone.php 1 -
+/wp-includes/SimplePie/Cache/ 2 -
+/a.php 1 -
+/wp-content/themes/travel/ 3 -
+/wp-content/plugins/houzez-theme-functionality/extensions/ 2 -
+/wp-admin/js/ 3 -
+/alfanew.php7 15 -
+/.well-known/acme-challenge/index.php 2 -
+/xxx.php 1 -
+/haxor.php 1 -
+/wp-content/plugins/contact-form-7/admin/css/ 2 -
+/img/xmrlpc.php 13 -
+/leaf.php 1 -
+/customize.php 2 -
+/wp-activate.php 5 -
+/22.php 1 -
+/wp-content/languages/about.php 13 -
+/xl2023.php 3 -
+/site/wp-admin/includes/ 2 -
+/wp-content/themes/school-education/template-parts/class-mixed-content-fixer.php 1 -
+/Update/ 2 -
+/images/cloud.php 13 -
+/098.php 1 -
+/wp-content/uploads/style.php 2 -
+/ynz.php 1 -
+/libraries/legacy/updates.php 13 -
+/ll.php 3 -
+/res/courses/index.html 5 -
+/wp-admin/maint/about.php 1 -
+/koko.php 1 -
+/qindex.php 1 -
+//taf.php 1 -
+/wp-content/plugins/image-optimization/modules/ 2 -
+/wp-content/plugins/bb-plugin/js/ 2 -
+/wp-content/updraft/about.php 13 -
+/updates.php 14 -
+/home/ 2 -
+/core-plugin/ 2 -
+/uploads/upload.php 1 -
+/wp-admin/tools.php 1 -
+/0.php 1 -
+/wp-includes/css/dist/components/ 2 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/website/wp-includes/wlwmanifest.xml 1 -
+/thoms.php 2 -
+/security.txt 1 -
+/wp-includes/ID3/js/ 2 -
+//dropdown.php 1 -
+/Gel.php 1 -
+/ninja.php 1 -
+/wp-includes/js/crop/ 2 -
+/images/headers/ 3 -
+/.well-known/pki-validation/index.php 2 -
+/s_e.php 1 -
+/gh.php 1 -
+/wp-admin/user/cloud.php 15 -
+/modules/modules/modules.php 1 -
+/wp-admin/js/wp-admin/js/ 2 -
+/wp-content/themes/tflow/ 2 -
+/worm0.PhP7 3 -
+/data.php 1 -
+/wp-admin/css/colors/ectoplasm/ 2 -
+//cgi-bin/install.php 1 -
+/xox.php 1 -
+/backup-backup/includes/ 2 -
+/wp-includes/rest-api/search/wp-blog.php 1 -
+/wp-content/plugins/wp-doft/ 3 -
+/home.php 2 -
+/wp-includes/js/jquery/jquery.min.js 1 -
+//wp-content/plugins/Cache/dropdown.php 1 -
+/comdofuns.php 3 -
+/function.php 1 -
+/wp-content/plugins/widget-logic/mini.php 1 -
+/sitemaps.xml 3 -
+/ajax-actions.php 13 -
+/blog/fw.php 1 -
+/wp-admin/css/colors/midnight/ 3 -
+/wp-includes/wp-atom.php 1 -
+/wp-admin/js/about.php7 1 -
+/wp-includes/images/1.php 2 -
+/res/courses/ecd.html 4 -
+/wp-content/plugins/akismet/views/ 2 -
+/wp-admin/wp-login.php 1 -
+/wp-p.php7 13 -
+/wp-includes/PHPMailer/install.php 1 -
+/wp-includes/js/tinymce/skins/wordpress/images/index.php 3 -
+/mah.php 6 -
+/wp-content/banners/about.php 13 -
+/wp-content/plugins/ubh/index.php 1 -
+/nasgor.php 1 -
+/wp-content/themes/twenty/twenty.php 3 -
+/media/system/js/core.js 1 -
+/libraries/phpmailer/updates.php 13 -
+/widths.php 1 -
+/wp-content/plugins/fix/up.php 2 -
+/blog/wp-includes/blog/wp-includes/ 2 -
+/site/ 2 -
+/wp-content/themes/pridmag/db.php 14 -
+/css/style1.css 3 -
+/wp-content/plugins/wp-daft/ 2 -
+/xmrlpc.php 15 -
+/.well-known/pki-validation/cloud.php 14 -
+/delete3.php 1 -
+/wp-content/themes/ccx/ 2 -
+//wp-content/install.php 1 -
+/wp-content/themes/ 2 -
+//css/install.php 1 -
+/wordpress 7 -
+/wp-content/plugins/upspy/index.php 1 -
+/wordpress/wp-admin/install.php 1 -
+/wp-includes/IXR/about.php 14 -
+/.tmb/ 2 -
+/cgi-bin/install.php 1 -
+/meteoriten/wp-admin/css/colors/blue/ 2 -
+/wp-content/plugins/dzs-zoomsounds/ 2 -
+/tmp_images/alfacgiapi/ 2 -
+/.well-known/pki-validation/install.php 2 -
+/wp-includes/Requests/Text/index.php 1 -
+/.well-known/pkivalidation/ 2 -
+/post.php 3 -
+/admin/controller/extension/extension/ 3 -
+/wp-includes/IXR/admin.php 3 -
+/wp-content/shell20211028.php 2 -
+/wp-content/plugins/Cache/Cache.php 15 -
+/.well-known/pki-validation/dropdown.php 2 -
+/filemanager/ 2 -
+/cms/wp-admin/install.php 1 -
+/wp-content/plugins/webmention/theme.php 1 -
+/wp-content/plugins/dummyyummy/wp-signup.php 1 -
+/wp-admin/css/fw.php 1 -
+/4price.php 1 -
+/by.php 2 -
+/alwso.php 1 -
+/as.php 2 -
+/admin-header.php 3 -
+/wp-json/ 3 -
+/wp-admin/includes/about.php 14 -
+/nl/ 2 -
+/gel4y.php 2 -
+/wp-content/plugins/Cache/dropdown.php 1 -
+/wp-admin/js/widgets/xmrlpc.php 13 -
+/wp-content/themes/pridmag/dropdown.php 1 -
+//wp-admin/taf.php 1 -
+/ioxi3.php 1 -
+//cgi-bin/cgi-bin/about.php7 1 -
+/configAXG/Jump/0-e0n1o8w9/victoriasolarscreens.com/alfanew/ 2 -
+/uploads/files/2.php 1 -
+/wp-content/repeater.php 13 -
+/wp-content/uploads/2023/05/404.php 1 -
+/contacts.php 1 -
+/assets/includes/ 2 -
+/wp-run.php 1 -
+/mail.php 2 -
+/css/aos.css 3 -
+/wp-includes/plugins.php 2 -
+/wp-json/wp/v2/posts 1 https://www.google.com/
+/wp-content/themes/pridmag/ 3 -
+/wp-includes/rrr.php 2 -
+/wp-admin/includes/themes.php 3 -
+/term.php 2 -
+/ccx/index.php 5 -
+/gawean.php 1 -
+/press/ 2 -
+/images/file.php 1 -
+//st.php 1 -
+/cgi-bin/cgi-bin/about.php7 1 -
+/wp-includes/blocks/code/ 2 -
+/uploader.php 1 -
+/wp-includes.bak/html-api/about.php 13 -
+/wp-includes/mani.php 2 -
+/res/courses/advertising.html 2 -
+/blogs/wp-content/themes/bltm/wp-login.php 1 -
+/cgi-bin/cgi-bin/about.php 1 -
+/oldsite/wp-admin/install.php 1 -
+/kn.php 1 -
+/alexuse.php 1 -
+/wp-content/plugins/vasixxx/ 2 -
+/chosen.php 5 -
+/13.php 1 -
+/11index.php 1 -
+/wp-includes/SimplePie/about.php 15 -
+/about.php 19 -
+/wp-hoard.php 1 -
+//.env 2 -
+/wp-content/plugins/cp-builder/ 2 -
+/alfa123.php 1 -
+/wp-includes/wp-class.php 3 -
+/wp-content/plugins/xichang/x.php 2 -
+/contacto.php 1 -
+/assets/images/content/file.php 1 -
+/alfa-rex.php 5 -
+/wp-uploads-config.php 3 -
+/old/wp-admin/allez.php 1 -
+/wp-admin/images/network.php 1 -
+/wp-content/themes/digital-download/ 2 -
+/vytshoff.php 2 -
+/wso.php 2 -
+/wp-l0gin.php 1 -
+/wp-admin/css/colors/blue/about.php 4 -
+/wp-content/themes/seotheme/db.php 15 -
+/wp-admin/css/colors/sunrise/wp-admin/css/colors/sunrise/ 2 -
+/res/courses/foklift.html 3 -
+/assets/fonts/ 2 -
+/.well-known/pki-validation/xmrlpc.php 14 -
+/wp-content/themes/twenty/ 3 -
+/assets/images/term.php 1 -
+/wp/wp-includes/ 2 -
+/wp-content/plugins/column/ 2 -
+/images/admin.php 2 -
+/wp-content/plugins/upspy/con.php 1 -
+/wp-includes/images/css.php 1 -
+/.well-known/acme-challenge/wp-login.php 1 -
+/wp-content/uploads/typehub/custom/ 2 -
+/wp-admin/images/index.php 15 -
+/blog/ 3 -
+/wp-includes/css/ 2 -
+/wp-admin/maint/atomlib.php 3 -
+/wp-content/updates.php 15 -
+/wp-includes/wp-info.php 2 -
+//wp-content/dropdown.php 1 -
+/footer/post19.php 2 -
+/wp-signin.php 1 -
+/img/uploads/file.php 1 -
+/nav-menus.php 2 -
+/wp-includes/css/izocin/ 2 -
+/assets/images/web.php 1 -
+/wp-admin/css/css/ 2 -
+/repeater.php 16 -
+/wp-content/plugins/css-ready/file.php 1 -
+/ALFA_DATA/ 2 -
+/wp-includes/blocks/group/ 2 -
+/wp-content/plugins/contact-form-7/includes/ 2 -
+/wp-content/themes/twentynineteen/inc/ 2 -
+/wp-includes/blocks/shortcode/ 2 -
+/autoload_classmap.php 2 -
+/wp-includes/repeater.php 13 -
+/.well-known/acme-challenge/install.php 2 -
+/wp-content/uploads/2021/ 2 -
+/content/galleries/Data/boy.php 1 -
+/css/style.css 3 -
+/wp-includes/js/tinymce/skins/wordpress/images/ 3 -
+/tmp/ 2 -
+/wp-configs.php 2 -
+/images/vuln.php 2 -
+/wp-content/plugins/press/wp-class.php 3 -
+/admin/admin/ 2 -
+/wp-includes/images/smilies/ 2 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/old/ 1 -
+/wp-include/inputs.php 1 -
+/ini.php 2 -
+/.env 2 -
+/wp2/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/about.php 15 -
+/about.php7 13 -
+/wordpress/wp-includes/IXR/allez.php 3 -
+/rts.php 1 -
+/wp-includes/images/about.php 13 -
+/news/wp-includes/wlwmanifest.xml 1 -
+/options.php 1 -
+/wp-content/plugins/WordPressCore/include.php 5 -
+/wp-theme.php 2 -
+/wp-content/plugins/rxronqd/index.php 1 -
+/wp-content/plugins/file-manager-zeroday/87.php 1 -
+/wp-links-opml.php 2 -
+/cache-compat.php 13 -
+/wp-admin/xmrlpc.php 13 -
+/yuuki.php 1 -
+/wp-admin/style.php 3 -
+/wp-content/plugins/ 3 -
+/blog 1 -
+//wp-includes/css/buttons.css 1 -
+/wp-content/plugins/Update/ 2 -
+/res/courses/end-user.html 1 -
+/wp-includes/block-supports/ 2 -
+/database.php 1 -
+/wp-content/plugins/random/ 2 -
+/karn.php 1 -
+/ms.php 1 -
+/wordpress/wp-admin/allez.php 2 -
+/s_ne.php 1 -
+/avaa.php 13 -
+/wp-content/plugins/sitepress-multilingual-cms/inc/translation-jobs/ 2 -
+/wp-includes/Requests/Response/wp-blog.php 1 -
+/wd.php 1 -
+/.well-known/radio.php 1 -
+/css/ 3 -
+/admin-post.php 13 -
+/ebs.php7 13 -
+/wp-admin/includes/xmrlpc.php 14 -
+/wp-content/plugins/prenota/ 2 -
+/cgi-bin/wp-login.php 2 -
+/backup/wp-admin/install.php 1 -
+/css/index.php 3 -
+/wp-content/plugins/gotmls/readme.txt 1 -
+/wp-includes/SimplePie/Content/Type/ 2 -
+/nf_tracking.php 1 -
+/.well-known/ALFA_DATA/alfacgiapi/perl.alfa.php 1 -
+/wp-content/plugins/elementor/includes/settings/ 2 -
+/wp-admin/shell.php 1 -
+/.well-known/acme-challenge/cloud.php 24 -
+/css.php 4 -
+/misc/ajax.js 1 -
+/css/403.php 2 -
+/res/courses/fire-fighting.html 2 -
+/V3.php 1 -
+/xe.php 1 -
+/wp-includes/Requests/Text/ 3 -
+/wp-admin/includes/class_api.php 2 -
+/atomlib.php 3 -
+/libraries/phpmailer/ 2 -
+/css/about.php 2 -
+/wp-content/plugins/updraftplus/vendor/psr/ 2 -
+/it.php 1 -
+/cgi-bin/admin.php 3 -
+/admin-ajax.php 2 -
+/alfanew.php 14 -
+/V5.php 1 -
+/wp-admin/alfacgiapi/ 2 -
+/wp-content/system_log.php 1 -
+/wp-includes/install.php 2 -
+/main 6 -
+/wordpress/wp-content/uploads/ 2 -
+/wp-content/plugins/iqzlqil/ 2 -
+/cgi-bin/iR7SzrsOUEP.php 2 -
+/wp-includes/Text/network.php 1 -
+/jquery.php 1 -
+/fpexfmte.php 2 -
+/wp-head.php 4 -
+/sidwso.php 3 -
+/wp-admin/network/wp-footer.php 1 -
+/wp-beckup.php 1 -
+/tmp/vuln.php 1 -
+/wp-content/plugins/mmk/alfanew.php 1 -
+/wp-admin/ccx/index.php 2 -
+/root.php 1 -
+/view-source: 1 -
+/wp-content/attachment/ 2 -
+/sitemap.txt 2 -
+/ubh/ 2 -
+/wp-includes/defaults.php 3 -
+/wp-includes/IXR/ 3 -
+/wp-content/themes/seotheme/mar.php 14 -
+/wp-content/plugins/elementor/modules/shapes/ 2 -
+/sh.php 1 -
+//install.php 1 -
+/ups.php 1 -
+/wp-includes/Text/Diff/Engine/ 2 -
+/wp-content/plugins/core/ 2 -
+/wp-content/plugins/pwnd/ 2 -
+/wp-admin/css/colors/blue/index.php 1 -
+/wp-content/themes/qoe/theme.php 1 -
+/wp-content/plugins/content-management/content.php 2 -
+/xt/ 3 -
+/wp-admin/erin1.php 1 -
+/403.php 4 -
+/rahma.php 1 -
+/wp 7 -
+/wp-admin/css/colors/midnight/admin.php 3 -
+/wp-plug.php 1 -
+/wp-includes/blocks/legacy-widget/ 2 -
+/x.php 2 -
+/assets/images/ 2 -
+/alfa.php 2 -
+//wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/smoothness.php 1 -
+/c.php 2 -
+/upfile.php 5 -
+/fw.php 5 -
+/wp-content/plugins/background-image-cropper/ 3 -
+/vacations/ 2 -
+/wp-content/plugins/redirection/matches/bypass.php 1 -
+/wp-includes/random_compat/ 3 -
+/wp-admin/network/ 3 -
+/.well-known/acme-challenge/about.php 2 -
+/iptv6/wp-content/plugins/dummyyummy/ 2 -
+/wp-content/plugins/contact-form-7/ 2 -
+/jindex.php 2 -
+/css/xmrlpc.php 13 -
+/wp-includes/widgets/ 3 -
+/css/ALFA_DATA/alfacgiapi/ 2 -
+/cah2.php 1 -
+/wp-content/uploads/revslider/templates/rockable-lineup/ 2 -
+/wp-admin.php 1 -
+/wp-includes/blocks/audio/ 2 -
+/wp-content/plugins/yyobang/ 2 -
+//wp-admin/install.php 1 -
+/wp-includes/js/tinymce/plugins/directionality/ 2 -
+/.well-known/amaxx.php 2 -
+/wp-includes/blocks/post-excerpt/ 2 -
+/content.php 3 -
+/wp-admin/options.php 1 -
+/ern.PhP7 1 -
+/wp-includes/Text/Diff/Engine/about.php 1 -
+/wp-content/about.php 14 -
+/wp-includes/ID3/about.php 15 -
+/wp-content/themes/twentytwentyone/assets/js/ 2 -
+/wp-includes/certificates/about.php 2 -
+/alfanew.PhP7 1 -
+/wp-add-admin.php 1 -
+/components/ 2 -
+/wikindex.php 1 -
+/wp-includes/block-patterns/ 2 -
+/wp-sigunq.php 2 -
+/up.php 2 -
+/wp-content/plugins/seox/wsoyanzf.php 1 -
+/wp-admin/ 3 -
+/delete4.php 1 -
+/res/courses/web.html 2 -
+/am.php 1 -
+/seo/ 2 -
+/wp-content/themes/moog/ 2 -
+/wp-includes/sitemaps/ 2 -
+/wp-content/uploads/revslider/templates/story-block-3/ 2 -
+/wp-admin/images/wp-admin/images/ 2 -
+/wp-content/themes/Divi/epanel/build/ 2 -
+/keuyadyv.php 1 -
+/ern1.PhP7 1 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/wp-includes/Requests/network.php 1 -
+/wp-includes/js/tinymce/skins/lightgray/img/index.php 3 -
+/ge.php 1 -
+/wp-admin/images/module.php 2 -
+/wp-content/plugins/linkpreview/ 2 -
+/wp-includes/blocks/avatar/ 2 -
+/wp-content/uploads/ithemes-security/ 2 -
+/0byte.php 1 -
+/images/ 4 -
+/wp-content/plugins/shortcodes-ultimate/admin/images/ 2 -
+/wp-admin/css/colors/coffee/index.php 6 -
+/cloud.php 14 -
+/wp-admin/wso.php 1 -
+/.well-known/wp-2019.php 3 -
+/img/cloud.php 15 -
+/ver.php 1 -
+/storage/ 2 -
+/.well-known/pki-validation/admin.php 2 -
+/wp-content/uploads/2023/05/ 3 -
+/wp-content/plugins/core-plugin/ 3 -
+/wp-content/install.php 3 -
+/media/pages/ups.php 1 -
+/post19.php 2 -
+/wp-aks.php 1 -
+/wp-includes/wp-includes/ 3 -
+/wp-includes/css/dist/vuln.php 1 -
+/wp-includes/Text/ 3 -
+/index.html 2 -
+/wp-content/themes/customizr/ 2 -
+/plugins.php 5 -
+/byp.php 1 -
+/wp-content/plugins/apikey/mar.php 2 -
+/wp-admin/install.php 4 -
+/bc 6 -
+/server.php 1 -
+/wso1.php 1 -
+/wp-status.php 1 -
+/filefuns.php 3 -
+/wp-content/themes/astra/inc/ 2 -
+/xleet-shell.php 1 -
+/wp-content/plugins/masterx/ 2 -
+/wp-post-editor.php 1 -
+/wp-includes/js/tinymce/plugins/compat3x/css/ 3 -
+/shell20211028.php 1 -
+/wp-content/plugins/include.php 2 -
+/wordpress/ 6 -
+/wp-content/wso.php 1 -
+/profile.php 3 -
+/wordpress/wp-includes/ 2 -
+/bwso.php 1 -
+/delete5.php 1 -
+/wp-one.php 1 -
+/wp-content/plugins/envato-elements/src/js/ 2 -
+/export.php 1 -
+/log.php 3 -
+/wp-includes/css/dist/list-reusable-blocks/ 2 -
+/vuln.php 1 -
+/wp-admin/network/class_api.php 2 -
+/wp-admin/css/colors/modern/ 2 -
+/wp-blog-post.php 1 -
+/www.buysteroidspro.com/blog-section/lapharmasteroidsnews/ 2 -
+/wp-includes/blocks/search/ 2 -
+/0x.php 1 -
+/wp-atom.php 4 -
+/wp-includes/blocks/comments/ 2 -
+/wp-content/themes/twentyfive/include.php 3 -
+/431.php 1 -
+/wp-admin/images/atomlib.php 3 -
+/xt/index.php 1 -
+/wp-includes/radio.php 3 -
+/wp-admin/css/index.php 15 -
+/wp-admin/user/about.php 1 -
+/wp-content/fx.php 1 -
+/ads.txt 2 -
+/wp-admin/css/about.php 14 -
+/web/wp-includes/wlwmanifest.xml 3 -
+//wp-head.php 1 -
+/images/about.php 14 -
+/wp-includes/certificates/ 2 -
+/gank.php 1 -
+/wp-includes/style-engine/about.php 13 -
+/w3.php 1 -
+//wp-content/patior/ 1 -
+/wp-admin/js/widgets/class_api.php 2 -
+/mrjn.php 1 -
+/my1.php 1 -
+/test/ 3 -
+/pdf/ 2 -
+/web.php 3 -
+/wp-content/uploads/2022/03/ 2 -
+/wp-admin/network/xmrlpc.php 14 -
+/wp-includes/themes.php 5 -
+/wp-includes/css/dist/widgets/ 2 -
+/wp-links.php 4 -
+/wp-2019.php 3 -
+/error.php 1 -
+/blog/wp-includes/ 2 -
+/wp-content/themes/config.bak.php 1 -
+/wp-content/plugins/ern/aks.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 3 -
+/wp-admin/x1.php 1 -
+/wp-content/plugins/download-plugins-dashboard/includes/ 2 -
+/wp-includes/Requests/about.php 14 -
+/wp-admin/users.php 2 -
+/radio.php 6 -
+/upel.php 1 -
+/core 1 -
+/test 1 -
+/wp-content/radio.php 1 -
+/wp-content/themes/alera/ 2 -
+/wp-admin/maint/index.php 1 -
+/alfashell.php 1 -
+/newsite 1 -
+/2index.php 1 -
+/makeasmtp.php 2 -
+/wp-content/uploads/revslider/templates/goodnewsblogheader/ 2 -
+/wp-admin/repeater.php 13 -
+/.alf.php 1 -
+/edit-tags.php 2 -
+/wp-content/plugins/dummyyummy/ 2 -
+/media.php 2 -
+/docs/ 2 -
+/wp-includes/theme-compat/wp-login.php 1 -
+/wp-consar.php 13 -
+/wp-content/themes/bltm/wp-login.php 1 -
+/ser.php 1 -
+/wp-admin/includes/ 3 -
+/wp-content/style-css.php 3 -
+/ALFA_DATA/alfacgiapi/perl.alfa.php 1 -
+/admin/controller/extension/ 2 -
+/wp-content/themes/astra/inc/ki1k.php 1 -
+/load.php 1 -
+/res/courses/consumer.html 1 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/baindex.php 1 -
+/xhell.php 1 -
+//wp-admin/images/install.php 1 -
+/wp-admin/js/widgets/ 3 -
+/alfa-rex.php7 16 -
+/sitemap_news.xml 1 -
+/wp-content/plugins/background-image-cropper/ups.php 2 -
+/wp-includes/SimplePie/Content/ 2 -
+/wp-includes/js/tinymce/plugins/wpemoji/ 2 -
+/wp-admin/css/colors/coffee/cloud.php 13 -
+/wp-content/plugins/seoplugins/db.php 13 -
+//wp-includes/Requests/Exception/HTTP/HTTP.php 1 -
+/Marvins.php 1 -
+//wp-admin/css/admin.php 1 -
+/wp-includes/js/tinymce/utils/ 2 -
+/wp-content/cong.php 3 -
+/b.php 1 -
+/uploads/images/2.php 1 -
+/wp-admin/images/ 3 -
+/wp-content/themes/alera/alpha.php 3 -
+/azz.php 1 -
+/wp-admin/css/colors/sunrise/ 2 -
+/wp-uploads.php 1 -
+/wp-includes/Requests/Text/admin.php 15 -
+/wordpress/wp-admin/includes/ 2 -
+/worksec.php 2 -
+/old.php 2 -
+/.well-known/network.php 3 -
+/wp-content/themes/calmly/issue.php 1 -
+/wp-includes/alfacgiapi/ 2 -
+/wp-includes/pomo/ 2 -
+/xindex.php 1 -
+/xt.php 2 -
+/res/courses/about-us.html 5 -
+/wp-includes/widgets/class-wp-admin.php 1 -
+/aks.php 1 -
+/defau1t.php 1 -
+/wso1337.php 1 -
+//wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/taf.php 1 -
+/wi.php 1 -
+/fox.php 2 -
+/wp-content/index.php 6 -
+/wp-includes/js/tinymce/plugins/image/ 2 -
+/res/courses/networking.html 3 -
+/wp-includes/Text/Diff/Renderer/ 2 -
+/de/ 2 -
+/wp-content/themes/twentytwentytwo/assets/fonts/index.php 1 -
+/wp-includes/Text/Diff/ 3 -
+/wp/ 3 -
+/wp-ss.php 1 -
+/wp-admin/maint/repair.php 2 -
+/wp-content/plugins/wp-doftx/defaul1.php 1 -
+/wp-config-sample.php 3 -
+/wp-content/uploads/2020/09/ 2 -
+/upload/upload/ 2 -
+/edit-form.php 1 -
+/7yn.php 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 7 -
+/adminfuns.php7 13 -
+/ynz.PhP7 2 -
+/wp_class_datalib.php 1 -
+/sitemap 1 -
+//my1.php 1 -
+/ee.php 3 -
+/res/courses/computer-literacy.html 3 -
+/shell.php 6 -
+/wp-content/themes/twentytwenty/404.php 2 -
+/wp-blog.php 2 -
+/plugins/jquery.filer/uploads/ 2 -
+/edit.php 3 -
+/wp-admin/css/colors/blue/cloud.php 13 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/wp-content/themes/sketch/ 2 -
+/wp-includes/blocks/about.php 14 -
+/wp-content/themes/intense/ 2 -
+/_well-known/ 2 -
+/postnews.php 2 -
+/wp-includes/blocks/quote/ 2 -
+/wp-includes/class-controller-theme-comment.php 1 -
+/wp-content/plugins/pymntpl-paypal-woocommerce/src/Conversion/ 2 -
+/wp-content/themes/mesmerize/ 2 -
+/wp-admin/maint/admin.php 3 -
+/wp-admin/radio.php 1 -
+/Sendemail.php 1 -
+/init.php 3 -
+/wp-content/ALFA_DATA/alfacgiapi/perl.alfa.php 1 -
+/wp-admin/includes/fw.php 1 -
+/css/animation-aos.css 3 -
+/1index.php 1 -
+/cgi-bin/cloud.php 14 -
+/wp-content/themes/twentytwenty/ 3 -
+/wp-admin/css/colors/wp-admin/css/colors/ 2 -
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/swm.php 1 -
+/wp-content/themes/business-gravity/template-parts/front-page/ 2 -
+/menu-header.php 2 -
+/ALFA_DATA/alfacgiapi/ALFA_DATA/alfacgiapi/ 2 -
+//wp-includes/rest-api/about.php 1 -
+/ninjawebshell.php 1 -
+/users.php 4 -
+/indexed.php 1 -
+/wp-seo.php 3 -
+/home 7 -
+/.well-known/pki-validation/ssl.php 2 -
+/wp-content/uploads/2023/11/ 2 -
+/wp-includes/old.php 3 -
+/wp-include/ 2 -
+/wp-admin/maint/fw.php 1 -
+/wp-content/upload/ 2 -
+/wp-signup.php 1 -
+/send.php 1 -
+/gallery/type/wyn.php 1 -
+/assets/plugins/daterangepicker/ 2 -
+/ws.php 3 -
+/res/courses/gallery.html 3 -
+/wp-content/plugins/contact-form-7/includes/swv/ 2 -
+/wp-includes/ID3getid3.lib.php 1 -
+/wp-admin/admin-ajax.php 1 -
+/wp-includes/css/buttons.css 1 -
+/wp-content/plugins/seoo/xynz.php 1 -
+/wp-includes/assets/ 2 -
+/templates/beez3/ 2 -
+/www.php 1 -
+/mar.php 1 -
+/csst.php 1 -
+/wp-content/wp.php 1 -
+/res/courses/call-centre.html 1 -
+/wp-content/upgrade/cloud.php 1 -
+/wp-content/dropdown.php 3 -
+/res/courses/health.html 4 -
+/res/courses/office-admin.html 1 -
+/wp-content/plugins/ccx/index.php 4 -
+/images/c99.php 1 -
+/wp-apxupx.php 3 -
+/wp-includes/assets/loader-packages.min.php 1 -
+/.ontillex.PhP7 2 -
+/wp-admin/user/ 3 -
+//wp-admin/css/colors/blue/taf.php 1 -
+//wp-content/uploads/ 1 -
+/wp-content/plugins/seoo/alfa-ioxi.php 2 -
+/wp-includes/SimplePie/ 3 -
+/.well-known/acme-challenge/content.php 2 -
+/wp-content/plugins/wp-doft/noimg.php 1 -
+/upload.php 3 -
+//wp-includes/Requests/Exception/HTTP/taf.php 1 -
+/wp-includes/fonts/ 3 -
+//wp-admin/css/colors/blue/blue.php 1 -
+/wp-content/themes/houzez/framework/widgets/ 2 -
+/onixnews/plugins/jquery.filer/uploads/ 2 -
+/css/bootstrap.css 3 -
+/wp-content/plugins/real/v.php 1 -
+/upgrade.php 3 -
+/uploads/up.php 1 -
+/files/ 4 -
+/wp-content/plugins/apikey/ 2 -
+/rf.php 1 -
+/wp-includes/fw.php 1 -
+/wp-admin/css/colors/blue/CasperExV1.php 2 -
+/wp-content/plugins/wp-automatic/css/style.css 1 -
+/wp-content/plugins/wp-daft/miin.php 2 -
+/alf.php 1 -
+/wp-admin/images/install.php 2 -
+/wwr.php 3 -
+/wp-content/plugins/cp-builder/issue.php 1 -
+/jp.php 2 -
+/wp-content/alfacgiapi/perl.alfa.php 1 -
+/images/icons/ 2 -
+/index_sso.php 1 -
+/wp-includes/js/tinymce/plugins/lists/ 2 -
+/wp-includes/js/ 2 -
+/wp-content/plugins/easybusy/ 2 -
+/wp-content/themes/twentytwenty/template-parts/ 2 -
+/include/include/ 2 -
+/wp-content/uploads/2020/11/ 2 -
+/simple.php 6 -
+/wp-content/themes/twentysixteen/js/ 2 -
+/wp-includes/blocks/gallery/ 2 -
+/wp-content/plugins/alfa-rex.php 2 -
+/wp-content/blogs.dir/about.php 13 -
+/wp-includes/plugins/instabuilder2/cache/ 2 -
+/wp-admin/dropdown.php 15 -
+/default.php 1 -
+/ws.php7 13 -
+/xml.php 3 -
+/wp-admin/css/colors/blue/ 3 -
+/uploads/filemanager/file.php 1 -
+/wp-content/plugins/popup-maker/includes/integrations/ 2 -
+/wp-content/plugins/cekidot/alf.php 1 -
+/wp-blog-header.php 3 -
+/wp-content/plugins/yyobang/mar.php 2 -
+/web/wp-admin/install.php 1 -
+/wp-includes/js/tinymce/langs/ 2 -
+/contact.php 3 -
+/wp-admin/images/profile.php 1 -
+/bb.php 1 -
+/instabuilder2/cache/plugins/ 2 -
+/wp-content/themes/travel/issue.php 3 -
+/wp-content/uploads/2023/ 3 -
+/nensec.php 1 -
+/wp-content/ccx/index.php 2 -
+/.DS_Store 2 -
+/wp-content/fw.php 1 -
+/wp-content/plugins/WordPressCore/dropdown.php 1 -
+/images/xmrlpc.php 13 -
+/wp-includes/js/jcrop/ 2 -
+/st.php 3 -
+/install.php 5 -
+/wp-admin/network/index.php 1 -
+/wp-content/db-cache.php 1 -
+/wsoyanzf.php 1 -
+/wp-content/upgrade/wp-content/upgrade/ 2 -
+/wp-admin/css/colors/midnight/about.php 2 -
+/wp-content/x.php 1 -
+/wp-admin/images/cloud.php 15 -
+/wp-content/plugins/seoo/ 3 -
+/wp-includes/widgets/about.php 14 -
+/wp-content/plugins/ern/ava.php 1 -
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 1 www.google.com
+/aw.php 1 -
+/.well-known/acme-challenge/iR7SzrsOUEP.php 2 -
+/lufix.php 4 -
+/wp-admin/includes/wp-login.php 2 -
+/cgi-bin/ 3 -
+/wp-includes/css/about.php 2 -
+/wp-includes/sitemaps/providers/ 2 -
+/wp-content/plugins/envato-market/inc/class-envato-market-api.php 3 -
+/.wp-cli/ 2 -
+/.well-known/pki-validation/content.php 2 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/index.php 3 -
+/wp-includes/fonts/jsm.js/ 2 -
+/css/cloud.php 15 -
+/wp-content/alfacgiapi/ 2 -
+/wp2.php 1 -
+/smm.php 1 -
+/2021/wp-includes/wlwmanifest.xml 2 -
+/blah.php.php 1 -
+/wp-admin/user/network.php 1 -
+/wp-content/plugins/seoplugins/mar.php 13 -
+//wp-content/plugins/install.php 1 -
+/radio.txt 1 -
+/.well-known/pki-validation/atomlib.php 2 -
+/courses/technical-support.html 5 -
+/wp-content/plugins/wpforms-lite/src/Forms/ 2 -
+/wp-admin/includes/index.php 1 -
+/moon.php 4 -
+/MARIJUANA.php 1 -
+/wp-admin/css/colors/coffee/about.php 2 -
+/cong.php 7 -
+/wp-admin/css/colors/sunrise/about.php 1 -
+/wp-includes/Requests/Response/ 2 -
+/oaawdzke.php 1 -
+/wp-content/themes/sketch/404.php 3 -
+/wp-includes/js/mediaelement/ 2 -
+/images/profiles/ 2 -
+/wp-content/style.php 2 -
+/sitemap.xml 3 -
+/wp-includes/ID3/_notes/ 2 -
+/wp-content/plugins/fix/ 3 -
+/wp-content/plugins/core-plugin/include.php 3 -
+/wp-content/uploads/simple.php 1 -
+/wp-includes/images/media/ 2 -
+/wp_wrong_datlib.php 1 -
+/.well-known/acme-challenge/xmrlpc.php 13 -
+/alexus.php 1 -
+/wp-content/plugins/revslider/includes/external/page/ 3 -
+/file.php 4 -
+/wp-content/plugins/three-column-screen-layout/db.php 1 -
+/1.php 2 -
+/wp-includes/blocks/query-title/footer.php 1 -
+/wordpress/wp-content/themes/ 2 -
+/1337.php 1 -
+/admin/controller/extension/wpm.php 3 -
+/wp-content/plugins/ccx/ 3 -
+/options-reading.php 2 -
+/sym403.php 1 -
+/maximums.php 1 -
+/file-manager.php 1 -
+/wp-conflg.php 2 -
+/erin1.PhP7 2 -
+/wp-content/plugins/content-management/ 2 -
+/wp-content/plugins/azra-tn/ 2 -
+/files/ALFA_DATA/alfacgiapi/ 2 -
+/wp-load.php 1 -
+/documents/wyn.php 1 -
+/wp-include/ccx/index.php 2 -
+/wp-content/plugins/seoo/wsoyanz1.php 13 -
+/wp-content/plugins/seoo/ulc2.php 1 -
+/new 7 -
+/sito/wp-includes/wlwmanifest.xml 1 -
+/assets/js/ 2 -
+/wp-content/themes/hello-element/footer.php 1 -
+/wp-content/mu-plugins/db-safe-mode.php 1 -
+/wp-admin/css/ 4 -
+/images/images/ 2 -
+/wp-mna.php 1 -
+/beence.php 1 -
+/upl.php 2 -
+/wp-configer.php 1 -
+/legion.php 1 -
+/wp-includes/css/wp-config.php 1 -
+/wp-content/plugins/WordPressCore/ 3 -
+/wp-admin/css/colors/blue/blue.php 2 -
+/wp-admin/css/colors/xmrlpc.php 13 -
+//wp-admin/maint/moon.php 1 -
+/images/ALFA_DATA/alfacgiapi/ 2 -
+/wp/wp-content/plugins/custom/issue.php 1 -
+/wp-content/backups-dup-pro/installer/ynz.php 1 -
+/wp-includes/css/alfacgi1/ 2 -
+/imagesvuln.php 1 -
+/w.php 1 -
+/courses/systems-development.html 2 -
+/wp-content/plugins/ubh/up.php 1 -
+/yadeitje.php 2 -
+/wp-includes/Requests/ 3 -
+/res/courses/receptionist.html 1 -
+/wp-content/upgrade-temp-backup/about.php 13 -
+/2020/wp-includes/wlwmanifest.xml 2 -
+/wp-content/themes/oshin/fonts/ 2 -
+/wordpress/wp-content/ 2 -
+/old/wp-admin/install.php 1 -
+/c99.php 1 -
+/wp-admin/js/about.php 23 -
+/backup/ 1 -
+/wp-content/themes/finley/ 2 -
+/old 7 -
+/wp-includes/wp-includes/admin-bar.php 2 -
+/wp-content/uploads/2023/08/ 2 -
+/eleps.php 1 -
+/wp-content/pm.php 2 -
+/new/wp-admin/install.php 1 -
+/wp-content/plugins/ern/gawean.php 2 -
+/sendmail.php 1 -
+/wp-content/plugins/ubh/ 3 -
+/wp-admin/css/colors/coffee/fw.php 1 -
+/wp-content/themes/mesmerize-pro/assets/images/ 2 -
+/wordpress/wp-admin/includes/wp-admin/js/ 2 -
+/courses/systems-support.html 3 -
+/wp-admin/maint/maint/ 2 -
+/wp-admin/css/colors/coffee/ 3 -
+/wp-admin/network/upfile.php 2 -
+/3301.php 1 -
+/ioxi4.php 1 -
+/blog.php 3 -
+/wp-includes/block-patterns/about.php 13 -
+/wp-content/plugins/xt/ 2 -
+/wp-includes/Text/Diff/Renderer/install.php 1 -
+/blog/wp-admin/install.php 1 -
+/wp-includes/ID3/ 2 -
+/wp-admin/user/moon.php 1 -
+/wp-content/plugins/wp-doft/defaul1.php 1 -
+/wp-includes/css/modules.php 1 -
+/wp-includes/sodium_compat/src/Core32/Curve25519/ 2 -
+/wpwp.php 1 -
+/wp-content/plugins/hellopress/ 2 -
+/Uploader.php 1 -
+/assets/css/ 3 -
+/fx.php 1 -
+/wpx.php 1 -
+/wp-admin/images/about.php 15 -
+/wp-includes/sodium_compat/lib/ 2 -
+/wp-includes/images/uct.php 2 -
+/wp-includes/blocks/block/ 2 -
+/wp-content/themes/hideo/ 2 -
+/wp-content/uploads/about.php 2 -
+/.well-known/pki-validation/wp-login.php 3 -
+/mari.php 1 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+/cgi-bin/xmrlpc.php 13 -
+/savefiles/images/file.php 1 -
+/main.php 3 -
+/wp-content/cache/db/singletables/cfa/ 2 -
+/wp-admin/user/class_api.php 2 -
+/wp-admin/ajax-actions.php 13 -
+//rindex.php 1 -
+/doc.php 3 -
+/xx.php 1 -
+/uploaded/file.php 1 -
+/wp-includes/style.php 2 -
+/shells.php 1 -
+/mad.php 2 -
+/blog/wp-content/themes/ 2 -
+/wp-admin/setup-config.php 3 -
+/.well-known/acme-challenge/moon.php 2 -
+/inputs.php 3 -
+/ovatools.php 1 -
+/blog/wp-includes/wlwmanifest.xml 3 -
+/priv8.php 1 -
+/application/modules/updater/views/themes/ 2 -
+/wp-includes/dropdown.php 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/a.php 2 -
+/wp-content/plugins/zhtytul/ 2 -
+/chtmlfuns.php 2 -
+/cms.php 1 -
+/alfanew2.php7 15 -
+/wp-admin/alfa.php 3 -
+/wp/wp-admin/includes/ 2 -
+/wp-content/plugins/wordpresss3cll/ 2 -
+/.well-known/pki-validation/moon.php 2 -
+/wp-includes/css/dist/ 2 -
+/wp-content/ 3 -
+/mailer.php 1 -
+/wp-admin/css/colors/ 2 -
+/res/courses/crane.html 2 -
+/wp-wso.php 1 -
+/wp-confirm.php 1 -
+/mini.php 2 -
+/wp-content/themes/twentytwentytwo/parts/ 2 -
+/wp-content/plugins/ern/erin1.php 2 -
+/wp-content/plugins/css-ready-sel/file.php 1 -
+/505.php 1 -
+/.well-known/pki-validation/about.php 14 -
+/w3llstore.php 1 -
+/wp-content/themes/twentytwentytwo/inc/ 2 -
+/.tmb/class_api.php 2 -
+/wp-includes/PHPMailer/ 3 -
+/ai.php 1 -
+/wp-admin/css/colors/coffee/xmrlpc.php 13 -
+/wp-content/plugins/ppus/up.php 1 -
+/1xleet.php 1 -
+/wp-content/themes/signify/ 2 -
+/ioxi001.PhP7 1 -
+/wp-content/plugins/install.php 1 -
+/wp-sever.php 1 -
+/imyyaakb.php 1 -
+/wp/wp-content/plugins/background-image-cropper/wp-login.php 1 -
+/wp-content/vz.php 1 -
+/wp-content/plugins/ango/ 2 -
+/koko.PhP7 1 -
+/wso2.php 1 -
+/wp-includes/SimplePie/test.php 1 -
+/plugin.php 1 -
+/wp-content/plugins/envato-elements/inc/utils/ 2 -
+/checkbex.php 1 -
+/wp-admin/css/colors/index.php 13 -
+/wp-content/plugins/classic-editor/wp-login.php 1 -
+/wp-admin/css/colors/blue/xmrlpc.php 13 -
+/wp-content/uploads/2023/03/ 2 -
+/wp-content/themes/about.php 15 -
+/wp-content/uploads/ 3 -
+/wp-includes/js/500.php 2 -
+/res/courses/sound.html 2 -
+/wp-content/plugins/under-construction-page/themes/rocket_2/ 2 -
+/wp-admin/fw.php 1 -
+//wp-admin/admin-ajax.php 1 -
+/res/courses/leadership.html 3 -
+/res/courses/systems-development2.html 2 -
+/wp-content/et-cache/2269/ 2 -
+/wp-includes/ID3/license.txt 1 -
+/assets/data/usrimg/ 2 -
+/backup 6 -
+/wp-content/plugins/backup_index.php 1 -
+/upload/ 3 -
+/new/ 3 -
+//cjfuns.php 1 -
+/lock360.php 3 -
+/wp-includes/blocks/site-tagline/ 2 -
+/wp-content/plugins/dgobwvk/ 2 -
+/wp-content/gallery/about.php 13 -
+/wp-admin/ALFA_DATA/alfacgiapi/perl.alfa.php 1 -
+/.well-known/acme-challenge/admin.php 2 -
+/wp-admin/css/colors/about.php 2 -
+/aged.php 2 -
+/include/ 3 -
+/wp-content/plugins/ioxi/ 2 -
+/assets/css/403.php 2 -
+/wp-includes/widgets/include.php 3 -
+/wp-includes/js/thickbox/ 2 -
+/wp-content/plugins/seoo/wsoyanz.php 13 -
+/.well-known/pki-validation/file.php 3 -
+/wp-content/plugins/backup-backup/includes/backup-heart.php 1 -
+/index1.php 2 -
+/wp-content/plugins/elementor/assets/css/ 2 -
+/wp-admin/includes/cloud.php 13 -
+/wp-admin/maint/edit.php 2 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 -
+/wp-content/themes/hello-element/ 2 -
+/wp-config.php 1 -
+/gif.php 1 -
+/admin/upload/ 3 -
+/yanz.php 14 -
+/wp-content/uploads/wp-login.php 1 -
+/wp-content/themes/wp-pridmag/ 2 -
+/wp/wp-content/uploads/2020/03/ 2 -
+/wp-admin/ALFA_DATA/alfacgiapi/ 2 -
+/wp-content/plugins/backup-backup/admin/css/ 2 -
+/admin.php 18 -
+//wp-admin/admin.php 1 -
+/wp-admin/network/cloud.php 13 -
+/wp-content/inputs.php 1 -
+/upload/image/ 2 -
+/wp-content/upgrade/wordpress-6.0-no-content/wordpress/wp-admin/ 2 -
+/wp-content/themes/generatepress/css/admin/ 2 -
+/5.php 1 -
+/wp-content/plugins/elementor/core/common/ 2 -
+/.well-known/pki-validation/ 3 -
+/wp-content/themes/gaukingo/db.php 1 -
+/wp-content/themes/calmly/ 2 -
+/pae.php 1 -
+/small.php 2 -
+/wp-content/languages/ 2 -
+//cgi-bin/cgi-bin/about.php 1 -
+/wp-includes/js/tinymce/utils/wp-tinymce.php 1 -
+/wp-content/uploads/booking_calendar/ 2 -
+/uploads/ 3 -
+/alfacgiapi/ 2 -
+/wp-includes/images/rrr.php 3 -
+/wp-content/plugins/wordpress-seo/css/ 2 -
+/css/ALFA_DATA/alfacgiapi/perl.alfa.php 1 -
+/m.php 1 -
+/wp-includes/1.php 2 -
+/wp-includes/css/css.php 1 -
+/3index.php 1 -
+/assets/front/img/ 2 -
+/wp-content/themes/twentyfive/ 2 -
+/res/courses/cashier.html 2 -
+/insidekentmagazine/wp-content/plugins/wordpress-seo/admin/ 2 -
+/wp-content/admin.php 1 -
+/temp/ 1 -
+//wp-content/plugins/ 1 -
+/wp-content/themes/astra/template-parts/search.php 1 -
+/wp-content/languages/index.php 1 -
+//class.api.php 1 -
+/api/ 2 -
+/administrator/ 2 -
+/ioxi02.php 1 -
+/wp-content/plugins/woo-checkout-field-editor-pro/admin/assets/ 2 -
+/wp-content/mu-plugins/ 2 -
+/gecko.php 2 -
+/RxR.php 1 -
+/wp-content/uploads/wp-blockdown.php 1 -
+/wp-content/plugins/tutor/traits/ 2 -
+/js/lightbox/ 2 -
+/wordpress/wp-includes/IXR/ 2 -
+/wp-content/mu-plugins/wp-content/mu-plugins/ 2 -
+/wp-includes/customize/ 3 -
+/system_log.php 2 -
+/wp-admin/maint/ 3 -
+/wp-content/alfa.php 1 -
+/wp-admin/maint/wp-admin/maint/ 2 -
+/wp-includes/blocks/ 2 -
+/assets/2.php 1 -
+/hello.php 1 -
+/wp-content/plugins/instabuilder2/cache/plugins/ 2 -
+/robots.txt 141 -
+/wp-content/plugins/elementor-pro/modules/theme-elements/ 2 -
+/wp-includes/blocks/network.php 1 -
+/wbuvlozl.php 1 -
+/wp-content/uploads/revslider/ 2 -
+/wp-content/plugins/upspy/up.php 1 -
+/wp-content/think.php 1 -
+/.well-known/acme-challenge/atomlib.php 2 -
+/public/ 2 -
+/core/ 2 -
+/wp-includes/images/include.php 1 -
+/wp-content/themes/theretailer/js/ 2 -
+/wp-content/plugins/custom/ 2 -
+/new_license.php 1 -
+/sym.php 1 -
+/01.php 1 -
+/site/default/ 2 -
+/Admin/uploads/ 2 -
+/img/rwyn.php 1 -
+/wp-content/plugins/sfqvmnx/ 2 -
+/media/wp-includes/wlwmanifest.xml 1 -
+/wp-includes/customize/class-wp-customize-custom-css-setting-condition.php 1 -
+/css/admin.php 3 -
+/wp-mail.php 4 -
+/wp-admin/alfacgiapi/perl.alfa.php 1 -
+/login/ 2 -
+/wp-admin/images/xmrlpc.php 15 -
+/wso112233.php 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/ 2 -
+/wp-content/plugins/index.php 3 -
+/wp-content/plugins/envato-market/inc/ 2 -
+/themes.php 4 -
+/moduless.php 1 -
+/wp-includes/wp_class_datlib.php 1 -
+/wp-includes/theme-compat/ 2 -
+/res/courses/data-capturing.html 3 -
+/kiss.php 1 -
+/wp-klss.php 1 -
+/admin/uploads/ 2 -
+/class.api.php 3 -
+/wp-includes/customize/chosen.php 1 -
+/wp-content/plugins/about.php 1 -
+/wp-content/plugins/custom/issue.php 1 -
+/srx.php 1 -
+/wp-content/plugins/instabuilder2/cache/plugins/moon.php 2 -
+/41.php 1 -
+//.well-known/acme-challenge/install.php 1 -
+/wp-2018.php 3 -
+/wp/wp-admin/install.php 1 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/ 2 -
+/media-admin.php 2 -
+/dropdown.php 15 -
+/wp-content/themes/twentyseventeen/assets/js/ 2 -
+/.well-known/ 4 -
+/wp-admin/css/k.php 1 -
+/testing 1 -
+/wp-admin/css/colors/light/ 2 -
+/wp-content/plugins/backup-backup/includes/ 2 -
+/wp-content/plugins/press/ 2 -
+/classwithtostring.php 3 -
+/sitemap.xml.gz 3 -
+/wp-admin/css/colors/light/index.php 2 -
+/wp-adminincludesclass-wp-media-list-data.php 1 -
+/xleet.php 1 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2023/10/ 2 -
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+//wp-includes/Text/about.php 1 -
+/lab.php 1 -
+/wp-content/themes/xstore/theme/assets/ 2 -
+/setup-config.php 1 -
+/404.php 7 -
+/ALFA_DATA/alfacgiapi/ 3 -
+/wp-includes/blocks/table/int/tmpl/index.php 2 -
+/wp-admin/cloud.php 16 -
+/wp-includes/wlwmanifest.xml 2 -
+/shop/wp-includes/wlwmanifest.xml 3 -
+/wp-includes/rest-api/about.php 14 -
+/php/thinkphp/aaaffff123.php 1 -
+/sitemap_index.xml 3 -
+/worm3.PhP7 1 -
+/o.php 1 -
+/wp-content/themes/sinatra/inc/customizer/ 2 -
+/lol.php 1 -
+/modules/ 3 -
+/css/fontawesome-all.css 3 -
+/ext.php 1 -
+/wp-includes/js/network.php 1 -
+/wp-info.php 3 -
+/wp-content/shell.php 1 -
+/fm.php 2 -
+/css/install.php 3 -
+/res/robots.txt 4 -
+/bypass.php 3 -
+/wp-includes/SimplePie/plugins.php 3 -
+/sites/default/files/ 3 -
+//ee.php 1 -
+/wp-content/plugins/elementor-pro/modules/motion-fx/ 2 -
+/admin/ 2 -
+/configPGU/Jump/0-nhbcseda/HAK8PLTSaJv/ 2 -
+/.well-known/pki-validation/iR7SzrsOUEP.php 2 -
+/wp-includes/pomo/xmrlpc.php 1 -
+/css/demo.css 3 -
+/wp-includes/Requests/Transport/ 2 -
+/site/wp-admin/install.php 1 -
+/wp-includes/pomo/wp_class_datalib.php 1 -
+/wp-includes/images/ 3 -
+/marijuana.php 1 -
+/.well-known/pki-validation/lang-load-role.php 1 -
+/kindex.php 1 -
+/ae.php 2 -
+/wp-content/plugins/linkpreview/db.php 16 -
+/wp-admin/css/colors/light/about.php 3 -
+/test/wp-admin/install.php 1 -
+/wp-content/plugins/ioptimization/ 2 -
+/4.php 1 -
+/wp-content/plugins/Cache/ 3 -
+/ioxi-aneh.php 3 -
+/wp-admin/js/widgets/about.php7 15 -
+/configUFY/Jump/0-ampli271/ricaplast.com.br/system/ 2 -
+/alfa-rex2.php7 13 -
+/gallery/ 2 -
+/stindex.php 1 -
+/wp-includes/php-compat/ 2 -
+/ozyealjf.php 2 -
+/csn.php 1 -
+/images/downloads/ 2 -
+//wp-admin/dropdown.php 1 -
+/admin/tmp/ 2 -
+/ads/tali-com-br/ 2 -
+/feste-zaehne-sofort/artonsystems/ 2 -
+/wp-content/themes/twentytwentytwo/assets/fonts/ 2 -
+/wp-admin/css/colors/cloud.php 13 -
+/.well-known/pki-validation/wp-admin/ 2 -
+/wp-file.php 3 -
+/wp-includes/customize/about.php 13 -
+/cgi-bin/about.php 13 -
+/wp-includes/blocks/rss/ 2 -
+/res/courses/accreditation.html 3 -
+/uct.php 1 -
+/wp-includes/blocks/social-link/ 2 -
+/wp-includes/rest-api/ 3 -
+/wp/wp-content/plugins/ph-file-manager/ 2 -
+/sindex.php 1 -
+/wp-includes/sodium_compat/src/Core32/ 2 -
+/wncxtsis.php/wp-admin/js/privacy-tools.min.php 2 -
+/wp-includes/style-engine/ 2 -
+/print.php 1 -
+/wp-content/plugins/index-ajax-response.php 1 -
+/wp-admin/meta/ 2 -
+/wp-includes/js/tinymce/plugins/compat3x/css/index.php 1 -
+//wp-admin/js/about.php 1 -
+/defaults.php 1 -
+/images/cache/ 2 -
+/kk.php 1 -
+/xynz.php 1 -
+/ton.php 1 -
+/assets/uploads/data/boy.php 1 -
+/wp-content/upgrade/ 2 -
+/87.php 1 -
+/wp-content/plugins/better-amp/includes/libs/ 2 -
+/wp-content/patior/ 2 -
+/wp-content/themes/signify/firkon.php 1 -
+/wp-content/uploads/2023/12/ 2 -
+/FoxWSO.php 1 -
+/wp-confiig.php 1 -
+/er.php 1 -
+/assets/img/team/ 2 -
+/img/about.php 13 -
+/iotnwojk.php 3 -
+/js/ 2 -
+/wp-ad.php 1 -
+/sts.php 1 -
+/woh.php 2 -
+/link.php 1 -
+/wp-admin/user/xmrlpc.php 14 -
+/images/ALFA_DATA/alfacgiapi/perl.alfa.php 1 -
+/wp-includes/Text/about.php 15 -
+/wp.php 7 -
+/wp-includes/SimplePie/HTTP/ 2 -
+/wp-admin/maint/maint/ajax-actions.php 13 -
+/wp-content/plugins/elementor/ 2 -
+/goods.php 1 -
+/wp-content/themes/fitnessbase/404.php 1 -
+/wp-includes/js/tinymce/skins/lightgray/img/ 2 -
+/cc.php 1 -
+/wp-trackback.php 2 -
+/gawean.PhP7 4 -
+/ok.php 1 -
+/alfaindex.php 1 -
+/wp-content/up.php 1 -
+/wp-content/plugins/footer/ 2 -
+/olux.php 1 -
+/wsoyanz.php 13 -
+/wp-content/plugins/limit/ 2 -
+/wp-includes/sitemaps/providers/class-wp-sitemaps-admin.php 1 -
+/wp-admin/js/widgets/cloud.php 13 -
+/alex.php 1 -
+END_SIDER_404
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 20
+/res/css/aos.css 4 http://lesedingconsulting.co.za/res/
+/res/js/easing.js 4 http://lesedingconsulting.co.za/res/
+/res/css/style.css 4 http://lesedingconsulting.co.za/res/
+/res/css/demo.css 4 http://lesedingconsulting.co.za/res/
+/res/js/aos.js 4 http://lesedingconsulting.co.za/res/
+/ 2 -
+/res/js/modernizr.custom.86080.js 4 http://lesedingconsulting.co.za/res/
+/.git/config 9 -
+/res/js/move-top.js 4 http://lesedingconsulting.co.za/res/
+/res/css/style1.css 4 http://lesedingconsulting.co.za/res/
+/res/js/bootstrap.js 4 http://lesedingconsulting.co.za/res/
+/.well-known/acme-challenge/ 3 -
+/res/js/jquery-2.2.3.min.js 4 http://lesedingconsulting.co.za/res/
+/res/css/bootstrap.css 4 http://lesedingconsulting.co.za/res/
+/res/js/responsiveslides.min.js 4 http://lesedingconsulting.co.za/res/
+/res/css/fontawesome-all.css 4 http://lesedingconsulting.co.za/res/
+/res/js/smoothscroll.js 4 http://lesedingconsulting.co.za/res/
+/res/css/animation-aos.css 4 http://lesedingconsulting.co.za/res/
+/phpmyadmin/index.php 1 -
+/res/ 1 http://lesedingconsulting.co.za/res/
+END_SIDER_403
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 96
+35.164.164.24 12 29 268565 20240321125019
+154.16.164.46 9 9 312813 20240318060307
+165.154.224.61 6 6 46962 20240330174310
+20.23.125.200 5 5 40095 20240303163936
+34.31.128.223 4 4 59348 20240308224424
+52.142.164.59 4 4 139384 20240303051253
+188.234.4.12 3 3 104271 20240307061913
+37.139.53.179 3 3 104271 20240308144022
+84.247.115.79 2 2 69514 20240310082042
+34.221.100.152 2 2 16038 20240318114115
+35.93.219.49 1 1 8019 20240314130125
+65.154.226.171 1 34 4515940 20240309051208
+74.235.203.67 1 1 8019 20240326002342
+40.94.90.89 1 3 12025 20240318122722
+196.196.53.102 1 1 34757 20240326093314
+2.58.56.214 1 1 308 20240302182755
+40.94.90.55 0 2 4257363 
+35.90.117.133 1 1 308 20240308064632
+40.94.90.77 0 3 561495 
+40.94.90.71 0 7 570938 
+91.239.157.219 1 1 34794 20240308004310
+149.56.150.63 1 1 34794 20240322160455
+35.89.117.208 1 1 34757 20240311070754
+34.220.198.89 1 1 34794 20240321125010
+13.82.102.204 1 1 0 20240307132144
+45.94.31.231 1 1 308 20240302151916
+45.94.31.165 1 1 308 20240306110342
+46.8.16.76 2 2 69514 20240304162155
+199.45.154.17 1 1 3141 20240311011007
+65.154.226.169 1 1 8019 20240316084208
+185.220.101.155 1 1 34486 20240305221810
+183.165.244.22 1 1 7982 20240304052316
+18.209.112.249 1 1 8019 20240309231220
+138.199.19.165 1 1 34794 20240311124255
+92.204.175.86 2 2 69514 20240330163800
+62.141.44.236 1 1 8019 20240302051558
+38.242.222.177 1 1 8019 20240302072933
+95.142.161.63 1 1 34486 20240305221827
+152.32.235.160 1 7 49107 20240308103208
+18.246.25.23 2 2 16038 20240302123249
+188.95.65.43 1 1 34794 20240308112516
+82.165.204.20 1 1 0 20240303211844
+44.200.191.153 2 2 16038 20240305204709
+199.45.155.16 1 1 3174 20240308013853
+65.154.226.168 1 34 6978344 20240309051655
+3.22.77.91 1 1 7477 20240322104118
+20.119.84.152 1 1 8019 20240302045010
+208.109.215.188 1 1 34486 20240305221816
+164.90.145.42 2 35 7004682 20240305204715
+161.35.57.47 1 1 3171 20240327045709
+41.150.195.38 1 17 2554646 20240310192551
+54.204.186.99 1 1 34794 20240306132910
+51.15.66.158 1 1 3141 20240303120539
+45.151.197.126 1 1 8019 20240315151524
+199.244.88.224 1 1 8019 20240327032957
+15.204.182.106 2 2 16038 20240304040044
+54.185.64.183 1 1 308 20240316071044
+165.231.98.191 1 1 34757 20240323233531
+3.82.22.32 1 2 18241 20240305204709
+176.31.103.46 1 1 7655 20240319100001
+85.254.42.65 1 1 11140 20240319101315
+152.32.234.39 1 7 50353 20240308103256
+34.209.41.5 1 1 308 20240326065232
+54.36.113.142 1 1 8019 20240308182103
+41.150.195.57 0 7 392398 
+205.185.125.109 1 1 8019 20240306213535
+40.94.90.1 0 2 6160 
+184.73.50.30 1 1 34972 20240305022503
+85.254.40.171 1 2 10374 20240319101312
+185.190.42.200 2 2 69514 20240301233558
+40.94.90.4 0 1 21561 
+40.94.90.5 0 7 815160 
+145.220.91.19 1 1 8019 20240329193542
+18.209.229.147 1 1 7477 20240327222342
+178.208.169.196 1 1 308 20240326130741
+35.92.9.45 1 1 8019 20240310114922
+54.174.58.226 1 34 6976790 20240304095001
+40.94.90.56 0 1 1849 
+5.75.225.234 1 1 8160 20240325175055
+45.94.31.158 1 1 308 20240307213844
+34.219.75.66 1 1 8019 20240301064911
+45.80.158.85 1 1 308 20240308173554
+193.176.86.61 2 2 69514 20240301020945
+107.178.238.203 1 1 8019 20240313021647
+178.254.12.183 1 1 8019 20240311092724
+40.94.90.19 0 3 166776 
+54.212.212.179 2 2 16038 20240326123206
+146.190.23.125 1 1 3173 20240313193553
+139.167.79.64 1 1 7982 20240313012445
+103.164.81.98 2 2 15654 20240310220745
+95.217.18.177 2 2 16038 20240303120539
+23.236.178.217 1 1 8019 20240310021513
+160.19.36.32 1 34 6997550 20240313094222
+40.94.90.10 0 4 561333 
+40.94.90.44 0 1 22890 
+199.45.155.48 1 1 3172 20240308013001
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20240301 5 5 147047 3
+20240302 7 7 40711 6
+20240303 13 13 198658 5
+20240304 6 39 7070324 4
+20240305 9 43 7177391 7
+20240306 3 3 43121 3
+20240307 5 5 104579 3
+20240308 16 28 347648 11
+20240309 3 69 11502303 3
+20240310 7 30 3048250 5
+20240311 4 4 80711 4
+20240313 4 37 7016724 4
+20240314 1 1 8019 1
+20240315 1 1 8019 1
+20240316 2 2 8327 2
+20240318 12 45 7326401 4
+20240319 3 4 29169 3
+20240321 13 30 303359 2
+20240322 2 2 42271 2
+20240323 1 1 34757 1
+20240325 1 1 8160 1
+20240326 6 6 59430 5
+20240327 3 3 18667 3
+20240328 2 2 15654 1
+20240329 3 3 23673 2
+20240330 4 4 85168 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+30mn-1h 1
+30s-2mn 2
+1h+ 1
+0s-30s 83
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/res/ 118 1919046 76 75
+/ 8 18972 8 8
+/img/ 3 104382 3 3
+/res/courses/technical-support.html 3 22589 1 1
+/res/courses/systems-development.html 2 11407 0 0
+/res/courses/systems-support.html 2 11646 0 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+100-500 328
+5K+ 589
+1K-2K 4275
+2K-5K 88
+0-44 12
+500-1K 26
+END_FILESIZE

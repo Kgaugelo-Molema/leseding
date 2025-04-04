@@ -1,0 +1,739 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202302 will be lost/reset.
+# Last config file used to build this data file was /home/lesedin1/domains/lesedingconsulting.co.za/awstats/.data/awstats.lesedingconsulting.co.za.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2126                
+POS_TIME 2785                
+POS_VISITOR 17991               
+POS_DAY 23965               
+POS_DOMAIN 3550                
+POS_LOGIN 3783                
+POS_ROBOT 3938                
+POS_WORMS 4545                
+POS_EMAILSENDER 4676                
+POS_EMAILRECEIVER 4819                
+POS_SESSION 24640               
+POS_SIDER 24819               
+POS_FILETYPES 4954                
+POS_DOWNLOADS 5196                
+POS_OS 5244                
+POS_BROWSER 5556                
+POS_SCREENSIZE 6434                
+POS_UNKNOWNREFERER 6508                
+POS_UNKNOWNREFERERBROWSER 6772                
+POS_ORIGIN 6928                
+POS_SEREFERRALS 7068                
+POS_PAGEREFS 7262                
+POS_SEARCHWORDS 7459                
+POS_KEYWORDS 7611                
+POS_MISC 2449                
+POS_ERRORS 7670                
+POS_CLUSTER 3639                
+POS_SIDER_404 7880                
+POS_SIDER_403 17632               
+POS_SIDER_400 7798                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230301065124 1 0 19658649612496
+FirstTime 0
+LastTime 20230228171212
+LastUpdate 20230302014013 1 0 0 0 0
+TotalVisits 114                 
+TotalUnique 112                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 172                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 2 8 21783
+1 4 4 65474 13 14 45907
+2 1 1 11478 6 7 37498
+3 7 42 7022198 13 30 170333
+4 0 0 0 4 8 118549
+5 0 0 0 7 15 63617
+6 1 34 5339830 2 5 6480
+7 2 76 7483040 6 9 50852
+8 1 1 8019 6 11 29896
+9 12 253 39038087 31 85 193712
+10 9 10 311349 12 15 71879
+11 10 101 372056 15 64 339529
+12 6 47 7544120 39 105 6732357
+13 1 35 6998614 24 35 676849
+14 1 14 79946 16 16 168099
+15 7 75 14011340 12 27 102198
+16 5 78 7507637 11 39 186237
+17 27 320 40308584 30 170 373451
+18 1 1 7477 8 70 230319
+19 16 95 16094692 40 98 8320375
+20 10 10 187290 10 10 3434
+21 4 37 58361 13 34 129203
+22 10 41 7018276 47 51 135492
+23 4 41 7155669 74 119 238857
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 139 1316 166623537
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+Googlebot/ 76 538833 20230228090759 0
+dataprovider\.com 75 11828982 20230222192848 0
+facebookexternalhit/ 74 4063227 20230226115410 0
+core 71 0 20230225183928 0
+zoominfobot 54 545244 20230225163854 0
+bingbot/ 34 370628 20230228221726 0
+Googlebot\-Image/ 8 172488 20230223183049 0
+curl 4 1148 20230218031428 0
+bingpreview 4 187184 20230216040756 0
+no_user_agent 4 46529 20230226093706 0
+Apache\-HttpClient/ 1 347 20230222174020 0
+bot[\s_+:,\.\;\/\\-] 1 7982 20230213033554 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+woff 7 72134 0 0
+php 107 1146880 0 0
+js 273 1851676 0 0
+jpg 300 136205309 0 0
+Unknown 6 2023 0 0
+html 26 218024 0 0
+css 281 1637379 0 0
+png 248 23267756 0 0
+woff2 68 2222356 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+androidnougat 5 3
+macosx14 1 1
+winnt 2 2
+win10 287 44
+android 224 13
+win7 49 2
+androidoreo 211 11
+macosx6 1 1
+macosx10 2 2
+Unknown 40 11
+macosx15 115 18
+win8.1 3 2
+linux 3 3
+ios_iphone 174 7
+win8 2 2
+androidpie 35 1
+macosx8 41 10
+android10 121 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 40
+chrome80.0.3987.116 1 1
+chrome94.0.4606.85 35 1
+chrome86.0.4240.75 7 7
+chrome87.0.4280.141 44 2
+chrome103.0.5060.114 5 5
+chrome107.0.0.0 80 7
+opera65.0.3467.78 1 1
+chrome80.0.3987.162 2 2
+safari15.6.1 35 2
+chrome68.0.3440.91 37 2
+chrome100.0.4896.127 52 4
+opera9.80 15 1
+chrome81.0.4044.138 14 1
+chrome17.0.963.65 1 1
+chrome17.0.963.66 1 1
+chrome39.0.2171.95 1 1
+chrome105.0.0.0 26 26
+chrome102.0.5005.125 35 1
+msie11.0 2 2
+firefox49.0 1 1
+chrome18.6.872 41 10
+msie8.0 1 1
+Unknown 34 5
+mozilla 6 6
+android 1 0
+chrome91.0.4472.114 74 12
+chrome59.0.3071.125 5 3
+safari14.1.2 1 1
+chrome110.0.0.0 104 3
+chrome50.0.2661.102 1 1
+safari16.2 68 2
+safari5.0 1 1
+chrome106.0.0.0 40 3
+chrome80.0.3987.99 69 2
+chrome100.0.4896.75 27 2
+chrome108.0.0.0 1 1
+safari16.0 72 4
+chrome104.0.0.0 1 1
+chrome98.0.4758.101 130 4
+chrome109.0.0.0 244 8
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20230218031503
+TMP 20230223105055
+cortex/1.0 20230207191916
+okhttp/3.12.1 20230217034325
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+TMP 20230223105055
+okhttp/3.12.1 20230217034325
+cortex/1.0 20230207191916
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 91 124
+From1 0 0
+From2 5 19
+From3 17 17
+From4 26 1156
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+yandexru 0 14
+www_bing_com 1 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://l.wl.co 13 13
+https://l.facebook.com 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 1 1144
+403 7 10573
+302 152 43361
+404 471 629236
+END_ERRORS
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 203
+/global/js/components/asscrollable.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/run.zip 1 -
+/19837437_notfound.html 3 http://lesedingconsulting.co.za
+/res/courses/crane.html 3 -
+/vendor/.env 1 -
+/res/courses/office-admin.html 5 -
+/secrets.json 1 -
+/.debug.env 1 -
+/index.html 1 -
+/sitemap.xml 2 -
+/misc/ajax.js 2 -
+/courses/systems-support.html 1 -
+/.laravel.env 1 -
+/res/courses/sound.html 3 -
+/blog/wp-content/plugins/core-stab/index.php 1 -
+/images/ 2 binance.com
+/res/courses/css/set.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/res/courses/css/responsive.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/global/vendor/breakpoints/breakpoints.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/res/courses/wholesale.html 4 -
+/.env.dev 1 -
+/global/fonts/font-awesome/font-awesome.min.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/databases.zip 1 -
+/.production 1 -
+/global/vendor/magnific-popup/magnific-popup.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/.env.copy 1 -
+/assets/js/sections/menu.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/config.json 1 -
+/res/courses/gallery.html 4 -
+/assets/js/sections/sidebar.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/.remote 1 -
+/global/css/bootstrap.min.css 5 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/wordpress/ 1 -
+/files/ 2 binance.com
+/.env.backup 1 -
+/res/courses/call-centre.html 3 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/.debug 1 -
+/.apache.env 1 -
+/app/.env 1 -
+/assets/js/configs/config-tour.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/configs.zip 1 -
+/wallets.json 1 -
+/res/courses/computer-literacy.html 1 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/public_html.zip 1 -
+/assets/examples/css/pages/gallery.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/res/css/global/css/bootstrap.min.css 1 http://lesedingconsulting.co.za/res/courses/systems-development.html
+/en/.env 1 -
+/wordpress/wp-content/plugins/core-stab/index.php 1 -
+/res/courses/index.html 4 -
+/administrator/index.php 2 -
+/.env.bak 1 -
+/global/fonts/web-icons/web-icons.min.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/sitemap.xml.gz 4 -
+/res/courses/web.html 3 -
+/administrator/.env 1 -
+/assets/examples/js/pages/gallery.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/res/courses/foklift.html 3 -
+/global/vendor/mousewheel/jquery.mousewheel.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/uploads.zip 1 -
+/.db.env 1 -
+/global/vendor/slidepanel/jquery-slidePanel.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/wp-admin/css/ 2 binance.com
+/.env.production 1 -
+/lab/.env 1 -
+/.env 1 -
+/Public/home/js/check.js 5 -
+/.env.development 1 -
+/.local 1 -
+/res/courses/leadership.html 3 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/global/vendor/asscroll/jquery-asScroll.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/accounts.json 1 -
+/global/fonts/brand-icons/brand-icons.min.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/res/courses/images/books.jpg 3 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/global/vendor/ashoverscroll/jquery-asHoverScroll.js 3 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/main.env 1 -
+/wp/wp-content/plugins/core-stab/index.php 1 -
+/.well-known/ 2 binance.com
+/res/robots.txt 2 -
+/.vscode/sftp.json 1 -
+/db.zip 1 -
+/core/app/.env 1 -
+/trading/ 2 -
+/global/vendor/intro-js/intro.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/myconf.env 1 -
+/global/vendor/modernizr/modernizr.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/cgi-sys/suspendedpage.cgi 1 -
+/global/vendor/animsition/animsition.css 6 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/assets/js/site.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/global/vendor/jquery/jquery.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/global/js/components/filterable.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/assets/.env 1 -
+/html.zip 1 -
+/res/courses/cashier.html 2 -
+/public/.env 1 -
+/sitemaps/.env 1 -
+/apps/.env 1 -
+/global/js/core.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/global/js/components/slidepanel.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/res/courses/css/main.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/v2.zip 1 -
+/.env.staging 1 -
+/res/courses/fire-fighting.html 1 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/uploads/.env 1 -
+/site/.env 1 -
+/wp-content/plugins/core-engine/index.php 1 -
+/install.zip 1 -
+/v1/.env 1 -
+/cronlab/.env 1 -
+/res/courses/images/background02.png 3 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/robots.txt 70 -
+/res/courses/data-capturing.html 2 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/sitemap.txt 4 -
+/assets/css/site.min.css 6 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/res/courses/advertising.html 2 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/res/courses/systems-development2.html 3 -
+/backup.zip 1 -
+/scripts.zip 1 -
+/server-status 1 -
+/trading/index.html 1 -
+/res/css/global/css/bootstrap-extend.min.css 1 http://lesedingconsulting.co.za/res/courses/systems-development.html
+/global/vendor/bootstrap/bootstrap.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/res/courses/css/animate.min.css 6 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/admin/controller/extension/extension/ 2 binance.com
+/assets/images/favicon.png 1 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/wp-content/plugins/wpyii2/wpyii2.php 1 -
+/global/vendor/screenfull/screenfull.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/keys.json 1 -
+/beta.zip 1 -
+/ads.txt 2 -
+/res/courses/consumer.html 2 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/saas/.env 1 -
+/cron/.env 1 -
+/global/vendor/intro-js/introjs.css 6 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/.env.prod 1 -
+/.nginx.env 1 -
+/composer.json 1 -
+/static/admin/javascript/hetong.js 5 -
+/global/css/bootstrap-extend.min.css 5 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/app.config.env 1 -
+/global/js/components/animsition.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/v1.zip 1 -
+/res/courses/accreditation.html 4 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/debug/default/view 1 -
+/sitemap_index.xml 4 -
+/res/courses/health.html 3 -
+/www.zip 1 -
+/script.zip 1 -
+/res/courses/receptionist.html 2 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/tools/.env 1 -
+/upload.zip 1 -
+/app.zip 1 -
+/global/js/components/switchery.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/old.zip 1 -
+/module.zip 1 -
+/global/vendor/magnific-popup/jquery.magnific-popup.min.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/.web.env 1 -
+/global/js/configs/config-colors.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/assets/js/sections/menubar.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/source.zip 1 -
+/.old.env 1 -
+/uploads/ 2 binance.com
+/dotenv.env 1 -
+/wp-content/plugins/wpzip/wpzip.php 1 -
+/exapi/.env 1 -
+/view-source: 2 -
+/global/vendor/switchery/switchery.min.js 3 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/web-variables.env 1 -
+/wp-content/plugins/core-stab/index.php 1 -
+/.postgres.env 1 -
+/res/courses/end-user.html 3 -
+/res/courses/ecd.html 2 -
+/laravel/.env 1 -
+/.env.local 1 -
+/tokenlite.zip 1 -
+/.django.env 1 -
+/backups.zip 1 -
+/global/vendor/flag-icon-css/flag-icon.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/api.zip 1 -
+/global/vendor/asscrollable/asScrollable.css 6 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/.env.bkp 1 -
+/res/courses/images/leseding05.png 3 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/res/courses/networking.html 2 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/app.env 1 -
+/global/vendor/asscrollable/jquery.asScrollable.all.js 3 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/courses/technical-support.html 2 -
+/admin/.env 1 -
+/res/courses/about-us.html 5 -
+/global/js/year.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/config.zip 1 -
+/dev.env 1 -
+/web/.env 1 -
+/.env.new 1 -
+/.elastic.env 1 -
+/sitemaps.xml 4 -
+/.env.remote 1 -
+/api/.env 1 -
+/global/vendor/isotope/isotope.pkgd.min.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+/sites/default/files/ 2 binance.com
+/database.zip 1 -
+/global/vendor/switchery/switchery.css 6 http://lesedingconsulting.co.za/res/courses/technical-support.html
+/wp-includes/wlwmanifest.xml 2 -
+/global/vendor/slidepanel/slidePanel.css 5 http://lesedingconsulting.co.za/res/courses/systems-support.html
+/global/vendor/animsition/animsition.js 2 http://www.lesedingconsulting.co.za/res/courses/technical-support.html
+END_SIDER_404
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 4
+/res/ 4 -
+/ 1 -
+/config/.env 1 -
+/.git/config 1 -
+END_SIDER_403
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 172
+18.216.107.155 6 37 299879 20230223111226
+3.145.77.86 6 37 299879 20230224173717
+3.145.130.91 5 19 711540 20230204171141
+103.196.65.41 3 3 24057 20230223105055
+20.246.127.21 3 3 24057 20230217122753
+47.89.195.210 2 2 11199 20230218151904
+41.113.250.73 2 37 11246612 20230215174535
+103.196.65.36 2 2 16038 20230223105053
+23.178.112.106 2 2 678 20230218031503
+20.22.242.8 2 2 16038 20230213211507
+20.185.223.168 1 1 8019 20230215105113
+172.58.63.246 0 19 676596 
+41.150.209.218 1 6 48467 20230210110903
+91.132.186.195 1 1 347 20230210223420
+172.177.250.225 1 1 8019 20230213201017
+173.252.79.117 0 1 44818 
+69.171.251.5 0 1 44818 
+52.149.159.86 1 1 8019 20230215110152
+172.177.250.192 1 1 8019 20230213195132
+157.90.165.243 1 1 8019 20230225163516
+41.13.110.68 0 1 229660 
+35.161.151.227 1 1 8019 20230215191416
+31.13.127.5 0 1 20425 
+173.252.79.6 0 1 17008 
+85.187.116.96 1 35 6998614 20230209130911
+51.158.76.13 1 1 8160 20230203194751
+34.219.196.204 1 1 328 20230218031503
+41.150.240.140 1 18 6458214 20230216193844
+92.43.85.251 0 9 959268 
+31.13.127.21 0 4 27509 
+66.220.149.6 0 6 4360825 
+66.102.9.82 1 2 16571 20230215174538
+41.150.240.113 1 43 0 20230228171212
+41.150.240.148 0 5 779866 
+105.245.112.44 1 34 5339830 20230219064646
+31.13.127.28 0 1 29831 
+43.252.29.251 0 4 591914 
+31.13.127.8 0 1 29831 
+41.150.34.81 1 36 6989690 20230214231429
+41.150.208.67 1 1 7132 20230228171110
+41.116.16.102 1 34 7132 20230227094724
+66.220.149.4 1 17 973637 20230204072242
+51.15.202.73 1 1 11478 20230204020548
+173.252.95.13 1 10 4329454 20230207191834
+69.171.230.1 0 1 17008 
+34.220.194.159 1 1 34794 20230206201919
+199.244.88.228 1 1 8019 20230212165826
+172.177.107.237 1 1 8019 20230213194704
+31.13.127.12 0 1 9836 
+41.13.124.118 1 14 79946 20230221141450
+162.43.235.128 1 1 8019 20230210223449
+66.102.9.80 0 1 6394 
+216.109.167.104 0 8 751560 
+66.220.149.20 0 1 44818 
+172.176.77.82 1 1 8019 20230217121813
+139.28.122.162 1 1 349 20230210223440
+185.37.2.241 0 1 4964 
+31.13.127.120 0 6 1214271 
+41.13.88.101 1 35 6977470 20230207154134
+209.99.150.170 1 25 6907000 20230211094009
+172.177.109.113 1 1 8019 20230213194215
+65.154.226.170 0 2 18737 
+31.13.127.22 0 4 32889 
+173.252.111.12 0 1 278775 
+102.222.183.253 1 35 7132 20230225070854
+18.237.136.244 1 1 34794 20230213200947
+41.150.240.160 1 8 529199 20230216193714
+105.29.74.18 1 35 6998614 20230216151028
+20.10.20.177 1 1 8019 20230207194710
+188.94.87.144 0 3 26081 
+41.150.240.175 1 2 62827 20230216193956
+197.184.164.249 1 35 7132 20230214170713
+41.150.241.224 0 21 0 
+20.10.15.162 1 1 8019 20230208174533
+173.252.79.3 0 1 278775 
+173.252.127.20 0 7 4299556 
+31.13.127.6 0 4 4396502 
+41.160.35.134 1 35 6990583 20230214170716
+216.19.202.181 1 1 347 20230210223440
+41.150.240.186 0 9 665393 
+51.15.204.6 1 1 11239 20230204015412
+5.78.71.46 1 1 34794 20230208014451
+54.184.68.61 1 1 339 20230218031444
+69.63.184.118 0 1 113438 
+41.13.88.114 1 35 6998614 20230219094722
+207.90.20.106 1 2 17966 20230211094115
+69.63.184.4 0 1 278775 
+197.229.3.143 0 34 0 
+209.99.139.199 1 25 6907000 20230211094105
+163.172.131.179 1 1 8160 20230203192829
+173.252.95.1 0 14 1192920 
+20.230.107.122 1 1 8019 20230213202424
+31.13.127.27 0 1 113438 
+54.202.67.8 1 1 34794 20230220203224
+31.13.127.10 0 1 24806 
+66.102.9.84 1 1 10177 20230215174538
+66.220.149.118 0 1 24806 
+41.150.240.188 1 1 8019 20230216193933
+63.246.128.199 1 24 6626580 20230211094133
+172.58.58.193 1 16 6313987 20230214170803
+188.94.85.18 1 1 11337 20230210223449
+173.252.95.12 0 1 24806 
+41.150.240.180 1 1 8019 20230216193750
+54.193.87.186 1 1 34757 20230227234832
+173.252.127.16 1 17 1672380 20230203163926
+199.244.88.227 1 1 8019 20230224161414
+66.220.149.15 0 11 1622934 
+110.239.211.157 0 1 39172 
+66.249.93.90 1 1 10177 20230215174537
+63.34.179.201 1 1 8019 20230202083315
+52.152.172.54 1 1 11140 20230215104525
+139.28.121.123 0 1 113827 
+172.176.144.105 1 1 8019 20230208175907
+47.88.78.6 1 1 8019 20230218151854
+67.22.61.232 1 1 11140 20230211094143
+41.150.212.148 1 35 6977470 20230208094945
+197.229.3.235 1 1 7672 20230204115825
+47.89.193.162 1 1 8019 20230218151923
+173.252.107.16 0 1 17008 
+65.154.226.166 0 1 113827 
+172.176.144.187 1 1 8019 20230208174153
+173.252.79.118 0 1 29831 
+41.13.0.79 1 36 7020175 20230217034323
+69.171.251.16 0 1 44818 
+41.150.240.60 1 4 34304 20230205214455
+69.63.184.1 0 1 9836 
+20.22.243.38 2 2 16038 20230213212342
+31.13.127.4 0 9 1241458 
+41.13.64.187 1 34 7672 20230207163429
+41.150.243.115 2 36 0 20230213095123
+41.21.236.197 1 34 6989145 20230213173027
+173.252.127.12 0 10 985460 
+69.63.184.5 0 1 113438 
+5.8.150.10 1 1 7477 20230202184714
+197.184.163.85 1 34 4567458 20230218093809
+13.58.133.22 1 1 339 20230218031503
+172.177.250.237 1 1 8019 20230213202654
+141.98.131.133 0 1 17395 
+172.177.104.118 1 1 8019 20230213201140
+41.145.194.69 1 1 0 20230214231933
+163.172.186.156 1 1 11281 20230204015642
+18.246.76.151 1 1 34794 20230227202426
+209.99.148.91 1 2 17727 20230211094108
+41.206.98.5 1 35 6990583 20230213173036
+31.13.127.25 1 6 24342 20230204125703
+41.150.208.52 0 30 0 
+173.252.95.15 0 10 1435022 
+173.252.111.2 0 1 29831 
+20.163.248.99 2 2 19356 20230215104813
+172.176.144.72 1 1 8019 20230208175145
+163.172.138.70 1 1 8160 20230204015354
+20.114.248.58 1 1 8019 20230213202321
+188.190.106.244 1 1 8019 20230210223423
+173.252.87.9 0 1 113438 
+173.252.107.17 0 1 17008 
+20.231.3.87 1 1 8019 20230215113641
+20.185.218.160 1 1 11098 20230215105110
+41.145.194.92 1 1 0 20230214231746
+69.171.251.3 0 1 9836 
+69.171.249.17 0 1 24806 
+31.13.127.23 0 1 278775 
+3.14.254.6 1 1 339 20230218031444
+92.255.81.138 1 1 11098 20230210223449
+110.239.214.38 1 2 171424 20230210223440
+121.91.81.22 0 1 54808 
+144.217.135.186 1 1 34794 20230222192830
+47.254.76.138 1 1 8019 20230218151903
+89.104.122.1 2 2 11489 20230210223449
+144.217.135.211 1 1 34794 20230213125234
+199.244.60.215 0 1 4236858 
+69.171.251.6 0 1 9836 
+172.177.248.207 1 1 8019 20230213200722
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 26
+20230202 2 2 15496 2
+20230203 3 43 7492228 3
+20230204 12 140 15713186 8
+20230205 1 34 34304 1
+20230206 1 2 264454 1
+20230207 4 111 14469069 4
+20230208 6 40 7044340 6
+20230209 1 35 6998614 1
+20230210 11 68 7066743 10
+20230211 6 82 20619977 6
+20230212 1 1 8019 1
+20230213 19 120 14153563 17
+20230214 7 144 20986007 7
+20230215 12 49 11355582 11
+20230216 6 79 15510151 6
+20230217 5 40 7052251 3
+20230218 12 45 4604737 10
+20230219 2 69 12338444 2
+20230220 1 1 34794 1
+20230221 1 14 79946 1
+20230222 1 1 34794 1
+20230223 11 42 339974 3
+20230224 7 38 307898 2
+20230225 2 36 15151 2
+20230227 3 36 76683 3
+20230228 2 44 7132 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 110
+30s-2mn 1
+2mn-5mn 1
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/res/ 113 1184283 91 91
+/res/courses/technical-support.html 9 86721 7 9
+/res/courses/systems-development.html 5 44882 5 4
+/res/courses/systems-support.html 5 45838 5 5
+/.well-known/acme-challenge/LXsB0FTXqKxb0e5GJ8daRqufpDsVAN5yxTZ8R3Wkz2M 3 1006 2 3
+/.well-known/acme-challenge/uX-nwHRTUUt3yYwjHyZ6dys9iISDwamL5sqHmT5m3kc 3 1017 3 2
+/ 1 3180 1 0
+END_SIDER
