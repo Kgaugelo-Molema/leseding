@@ -1,0 +1,29 @@
+name: Build Project
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Archive production artifacts
+        run: tar -czf build.tar.gz ./dist
+
+      - name: Deploy to FTP server
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ftp://ftp.faidanenterprise.co.za
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist
+          server-dir: /public_html/lcs
